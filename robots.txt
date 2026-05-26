@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://schools.themakings.co.kr/sitemap.xml
