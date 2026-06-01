@@ -1,0 +1,550 @@
+<!DOCTYPE html><html lang="ko"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>김포고등학교 근처 학원 추천 | 김포시 | THE MAKINGS</title>
+<meta name="description" content="김포고등학교 학생들이 많이 다니는 학원 리스트. 38개 학원 정보 제공.">
+<link rel="canonical" href="https://schools.themakings.co.kr/gyeonggi/gimpo/김포고등학교/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#f8f9fb;--card-bg:#fff;--text:#1a1a2e;--text-sub:#6b7280;--pink:#e84393;--accent:#2563eb;--border:#e5e7eb;--radius:12px;--shadow-lg:0 4px 20px rgba(0,0,0,.08)}
+body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+.site-header{background:#fff;border-bottom:1px solid var(--border);padding:16px 0;position:sticky;top:0;z-index:100}
+.header-inner{max-width:960px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;font-size:18px;color:var(--pink);text-decoration:none;letter-spacing:-.5px}
+.header-nav a{font-size:14px;color:var(--text-sub);text-decoration:none;margin-left:20px;font-weight:500}
+.header-nav a:hover{color:var(--pink)}
+.breadcrumb{max-width:960px;margin:0 auto;padding:16px 20px 0;font-size:13px;color:var(--text-sub)}
+.breadcrumb a{color:var(--text-sub);text-decoration:none}.breadcrumb a:hover{color:var(--pink)}.breadcrumb span{margin:0 6px}
+.hero{max-width:960px;margin:0 auto;padding:32px 20px 24px;text-align:center}
+.hero h1{font-size:28px;font-weight:800;letter-spacing:-.5px;margin-bottom:8px;line-height:1.3}
+.hero-sub{font-size:15px;color:var(--text-sub);margin-bottom:20px}
+.hero-stats{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.stat-chip{background:var(--card-bg);border:1px solid var(--border);border-radius:100px;padding:8px 16px;font-size:13px;font-weight:600}
+.filter-bar{max-width:960px;margin:0 auto;padding:0 20px 20px;display:flex;gap:8px;flex-wrap:wrap}
+.filter-btn{background:var(--card-bg);border:1px solid var(--border);border-radius:100px;padding:8px 14px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;font-family:inherit;color:var(--text-sub);display:flex;align-items:center;gap:4px}
+.filter-btn:hover{border-color:var(--pink);color:var(--pink)}
+.filter-btn.active{background:var(--pink);color:#fff;border-color:var(--pink)}
+.filter-btn .count{font-size:11px;opacity:.7}
+.subject-section{max-width:960px;margin:0 auto;padding:0 20px}
+.section-header{display:flex;align-items:center;justify-content:space-between;padding:24px 0 8px;border-bottom:2px solid var(--text);margin-bottom:12px}
+.section-header h2{font-size:20px;font-weight:800}.section-count{font-size:13px;color:var(--text-sub);font-weight:500}
+.academy-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:box-shadow .2s,border-color .2s;margin-bottom:12px}
+.academy-card:hover{box-shadow:var(--shadow-lg);border-color:#d1d5db}
+.academy-card.hidden,.subject-section.hidden{display:none}
+.card-title-row{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:10px}
+.card-title-row h3{font-size:17px;font-weight:700;line-height:1.3}
+.score-badge{display:flex;flex-direction:column;align-items:center;padding:6px 14px;border-radius:10px;flex-shrink:0;min-width:80px}
+.score-label{font-size:10px;font-weight:600;letter-spacing:-.3px;opacity:.8}
+.score-number{font-size:24px;font-weight:800;line-height:1.1;letter-spacing:-1px}
+.card-body{font-size:14px}.card-address{color:var(--text-sub);margin-bottom:4px}
+.card-phone{margin-bottom:4px}.card-phone a{color:var(--accent);text-decoration:none;font-weight:500}
+.card-links{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.link-btn{font-size:13px;padding:6px 12px;border-radius:8px;text-decoration:none;font-weight:500;transition:opacity .15s}
+.link-btn:hover{opacity:.8}.link-btn.kakao{background:#fee500;color:#3c1e1e}.link-btn.blog{background:#e8f5e9;color:#2e7d32}
+.site-footer{background:#fff;border-top:1px solid var(--border);padding:40px 20px;text-align:center}
+.footer-cta{font-size:15px;font-weight:600;margin-bottom:8px}.footer-cta a{color:var(--pink);text-decoration:none}.footer-cta a:hover{text-decoration:underline}
+.footer-copy{font-size:13px;color:var(--text-sub);margin-top:12px}.footer-copy a{color:var(--pink);text-decoration:none}
+.school-list{max-width:960px;margin:0 auto;padding:0 20px 40px}
+.school-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.school-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-decoration:none;color:var(--text);transition:box-shadow .2s}
+.school-card:hover{box-shadow:var(--shadow-lg)}.school-card h3{font-size:16px;font-weight:700;margin-bottom:4px}.school-card p{font-size:13px;color:var(--text-sub)}
+.district-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.district-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-decoration:none;color:var(--text);transition:box-shadow .2s}
+.district-card:hover{box-shadow:var(--shadow-lg)}.district-card h3{font-size:16px;font-weight:700;margin-bottom:4px}.district-card p{font-size:13px;color:var(--text-sub)}
+@media(max-width:640px){.hero h1{font-size:22px}.header-nav{display:none}.stat-chip{font-size:12px;padding:6px 12px}.filter-btn{padding:6px 10px;font-size:12px}.card-title-row{flex-direction:column;gap:8px}.score-badge{flex-direction:row;gap:8px;min-width:auto;padding:6px 12px}.section-header h2{font-size:17px}}
+</style></head><body><header class="site-header"><div class="header-inner">
+<a href="/" class="logo">THE MAKINGS</a>
+<nav class="header-nav">
+<a href="/seoul/">서울</a><a href="/incheon/">인천</a><a href="/gyeonggi/">경기</a><a href="/busan/">부산</a>
+</nav></div></header><div style="text-align:center;margin:20px auto;width:100%;display:flex;justify-content:center;">
+<div style="width:100%;max-width:960px;">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="4154182247" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div></div><div class="breadcrumb"><a href="/">홈</a><span>›</span><a href="/gyeonggi/">경기</a><span>›</span><a href="/gyeonggi/gimpo/">김포시</a><span>›</span>김포고등학교</div><section class="hero">
+<h1>김포고등학교<br><span style="font-size:20px;color:var(--text-sub)">근처 학원 리스트</span></h1>
+<p class="hero-sub">김포시 · 고등학교</p>
+<div class="hero-stats">
+<div class="stat-chip">📚 38개 학원</div>
+<div class="stat-chip">🏫 전문도 기반 정렬</div>
+</div></section>
+<div class="filter-bar"><button class="filter-btn active" onclick="filterSubject('all',this)">전체 <span class="count">38</span></button><button class="filter-btn" onclick="filterSubject('국어',this)">국어 <span class="count">2</span></button><button class="filter-btn" onclick="filterSubject('영어',this)">영어 <span class="count">7</span></button><button class="filter-btn" onclick="filterSubject('수학',this)">수학 <span class="count">9</span></button><button class="filter-btn" onclick="filterSubject('과학',this)">과학 <span class="count">1</span></button><button class="filter-btn" onclick="filterSubject('기타',this)">기타 <span class="count">19</span></button></div>
+<div class="subject-section" data-subject="국어">
+<div class="section-header"><h2>국어</h2><span class="section-count">2개 학원</span></div>
+<div class="academy-card" data-subject="국어">
+<div class="card-title-row">
+  <h3>김대기국어학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">35% (지역)</span></h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">72</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 사우중로 83 , 601호 (북변동,사우테마프라자)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/2138342718" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row">
+  <h3>이헌준올바른국어학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">33% (지역)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">59</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 김포한강1로 230 , 김포운양역 현대센트럴스퀘어 303호, 323호 (운양동)</p>
+  <p class="card-phone">📞 <a href="tel:031-9887-853">031-9887-853</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/460339924" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div></div><div class="subject-section" data-subject="영어">
+<div class="section-header"><h2>영어</h2><span class="section-count">7개 학원</span></div>
+<div class="academy-card" data-subject="영어">
+<div class="card-title-row">
+  <h3>제이영어학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">30% (지역)</span></h3>
+  <div class="score-badge" style="background:#eff6ff;color:#1d4ed8">
+    <span class="score-label">전문도</span>
+    <span class="score-number">85</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 사우중로73번길 38 , 403호 (북변동, 김포프라자)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/41762117" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row">
+  <h3>스파르타영어학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">52% (선호)</span></h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">72</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 고촌읍 수기로 109 , 407호 (고촌읍)</p>
+  <p class="card-phone">📞 <a href="tel:031-8049-3239">031-8049-3239</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/2021539545" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row">
+  <h3>엘에스영어학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">75% (전문)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">59</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 김포한강2로104번길 62 , 201호 (장기동, 두현프라자)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/403414348" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row">
+  <h3>정상어학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">30% (지역)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 사우중로 82 , 702호, 704호 (사우동, 사우프라자)</p>
+  <p class="card-phone">📞 <a href="tel:031-984-5700">031-984-5700</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/11417413" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row">
+  <h3>190SKY영어학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">100% (전문)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 김포한강4로 131 , 604호 (장기동, 정현메디피아)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  
+</div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row">
+  <h3>채움영어학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">65% (선호)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 김포한강1로 247 , 312호 (운양동,김포헤리움타운)</p>
+  <p class="card-phone">📞 <a href="tel:031-987-9056">031-987-9056</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/578124113" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row">
+  <h3>뉴욕센트럴영어학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">44% (선호)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 고촌읍 수기로 115 , 602호 (고촌읍, 센트럴타워)</p>
+  <p class="card-phone">📞 <a href="tel:031-997-6635">031-997-6635</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/2138456969" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div></div><div class="subject-section" data-subject="수학">
+<div class="section-header"><h2>수학</h2><span class="section-count">9개 학원</span></div>
+<div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>라플라스수학학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">39% (지역)</span></h3>
+  <div class="score-badge" style="background:#eff6ff;color:#1d4ed8">
+    <span class="score-label">전문도</span>
+    <span class="score-number">79</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 풍무1로 77 , 402호, 502호 (솔로몬메디컬프라자) (풍무동)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/1136714497" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>고수학전문학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">25% (지역)</span></h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">63</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 김포한강1로 247 , 503호, 507호, 508호 (운양동, 김포운양헤리움타운)</p>
+  <p class="card-phone">📞 <a href="tel:031-996-7675">031-996-7675</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/24726209" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>이규태수학학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">44% (선호)</span></h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">63</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 사우중로 88 , 신영플라자 202호, 203호 (사우동)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  
+</div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>에이플영수학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">46% (선호)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">59</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 풍무로69번길 16 , 301호 (풍무동, 세명빌딩)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/1714806151" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>대치악어수학학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">100% (전문)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">56</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 사우중로 79 , 503호 (북변동, 사우테마프라자2)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  
+</div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>강한수학학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">50% (선호)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">56</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 김포한강2로 76 , 401호 일부 우측부분 (장기동, 프레즌스빌딩)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/127880273" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>용수학학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">50% (선호)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 사우중로73번길 38 , 404호, 504호 (북변동, 김포프라자)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/248211970" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>단하나의수학학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">89% (전문)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 김포한강11로 288-37 , 김포한강 운양역 헤리움리버테라스 216호 (운양동)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/835763941" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>사이매쓰학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">50% (선호)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 김포한강2로104번길 4 , 503호 (장기동, 경서프라자)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  
+</div></div></div><div class="subject-section" data-subject="과학">
+<div class="section-header"><h2>과학</h2><span class="section-count">1개 학원</span></div>
+<div class="academy-card" data-subject="과학">
+<div class="card-title-row">
+  <h3>선행과심화학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">92% (전문)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 풍무로 59 , 2층 전체 (풍무동)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/11993768" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div></div><div class="subject-section" data-subject="기타">
+<div class="section-header"><h2>기타</h2><span class="section-count">19개 학원</span></div>
+<div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>최강입시전문학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">79% (전문)</span></h3>
+  <div class="score-badge" style="background:#fdf2f8;color:#be185d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">99</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 중봉1로 10 , 김포시산림조합 가동 2층(일부) (감정동)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/1248051300" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>1등급학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">30% (지역)</span></h3>
+  <div class="score-badge" style="background:#eff6ff;color:#1d4ed8">
+    <span class="score-label">전문도</span>
+    <span class="score-number">76</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 사우중로 77 , 삼정사이버프라자 401호 (북변동)</p>
+  <p class="card-phone">📞 <a href="tel:031-992-0095">031-992-0095</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/15862992" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>사우점와와학습코칭학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">45% (선호)</span></h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">69</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 사우중로 77 , 304호 (북변동, 삼정사이버프라자)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/288620977" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>천지인학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">38% (지역)</span></h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">63</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 사우중로 87 , 상지프라자 3층 (북변동,상지프라자)</p>
+  <p class="card-phone">📞 <a href="tel:031-983-1071">031-983-1071</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/8093320" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>서울JC학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">32% (지역)</span></h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">63</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 김포한강8로 386 , 704호 (구래동, 센트럴프라자2)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/1834276348" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>가람플러스학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">50% (선호)</span></h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">63</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 봉화로 176 , 3층 일부 (감정동, 김포농협)</p>
+  <p class="card-phone">📞 <a href="tel:031-984-3122">031-984-3122</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/27102703" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>지인학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">30% (지역)</span></h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">63</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 김포한강2로 262 , 605호 (장기동, 훼밀리 플라자)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/583041731" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>대치명인학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">33% (지역)</span></h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">63</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 사우중로 77 , 601호 (북변동, 삼정사이버프라자)</p>
+  <p class="card-phone">📞 <a href="tel:031-992-5959">031-992-5959</a></p>
+  
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>온리유학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">38% (지역)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">59</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 김포한강1로 247 , 504호 (운양동,김포헤리움타운)</p>
+  <p class="card-phone">📞 <a href="tel:031-983-1025">031-983-1025</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/1774851457" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>명품학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">38% (지역)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">59</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 김포한강1로 57 , 1002호,1003호(MJ프라자) (장기동)</p>
+  <p class="card-phone">📞 <a href="tel:031-989-7986">031-989-7986</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/26428344" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>이엠학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">25% (지역)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">56</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 양촌읍 황금로70번길 5-23 , 1층 (양촌읍)</p>
+  <p class="card-phone">📞 <a href="tel:031-991-9981">031-991-9981</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/1997884619" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>대성N학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">60% (선호)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">56</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 태장로 784 , 707호~709호 (장기동)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/1559188948" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>정성학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">69% (선호)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 김포한강4로 513 , 603호 (구래동, 채움테라스)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>JD입시전문학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">100% (전문)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 사우중로 83  사우테마프라자 404호 (북변동)</p>
+  <p class="card-phone">📞 <a href="tel:031-985-0709">031-985-0709</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/9374186" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>운양점와와학습코칭학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">62% (선호)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 김포한강11로 288-37 , 205호 (운양동, 김포한강운양역헤리움리버테라스)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/1022662189" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>오렌지라임학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">86% (전문)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 고촌읍 장차로 7 , 3층 (고촌읍)</p>
+  <p class="card-phone">📞 <a href="tel:031-986-4277">031-986-4277</a></p>
+  
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>프라임학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">60% (선호)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 통진읍 조강로 104-6 , 2층 (통진읍)</p>
+  <p class="card-phone">📞 <a href="tel:031-982-3464">031-982-3464</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/2025852240" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>정상학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">12% (지역)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 풍무로 97 , 2층,3층 (풍무동)</p>
+  <p class="card-phone">📞 <a href="tel:031-987-2246">031-987-2246</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/26636958" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>윤쌤학원<span style="font-size:12px;color:var(--text-sub);margin-left:6px">50% (선호)</span></h3>
+  <div class="score-badge" style="background:#fafafa;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-body">
+  <p class="card-address">📍 경기도 김포시 사우중로 93 , 308호 (북변동, 한빛프라자)</p>
+  <p class="card-phone">📞 <a href="tel:nan">nan</a></p>
+  <div class="card-links"><a href="http://place.map.kakao.com/15536242" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a></div>
+</div></div></div><footer class="site-footer">
+<p class="footer-cta">학원 등록 및 광고 문의: <a href="mailto:themakings.official01@gmail.com">themakings.official01@gmail.com</a></p>
+<p class="footer-copy">© 2026 THE MAKINGS · <a href="https://themakings.co.kr">메인으로 돌아가기</a></p>
+</footer><script>
+function filterSubject(subj,btn){
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.subject-section').forEach(sec=>{
+    sec.classList.toggle('hidden', subj!=='all' && sec.dataset.subject!==subj);
+  });
+}
+</script></body></html>
