@@ -1,0 +1,955 @@
+<!DOCTYPE html><html lang="ko"><head>
+<meta charset="UTF-8"><meta name="google-site-verification" content="PRWEzwLvpx79mTySGb6sEvFHtoNITEBuCbyXQbhCDDA" />
+<meta name="naver-site-verification" content="2807a8fa5fd31106baffa35c7726e7fa0133b97a" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<title>강릉고등학교 근처 학원 추천 | 강원 강릉 | THE MAKINGS</title>
+<meta name="description" content="강릉고등학교 학생들이 많이 다니는 학원 리스트. 170개 학원, 전문도 기반 정렬.">
+<link rel="canonical" href="https://highschool.themakings.co.kr/gangwon/gangneung/%EA%B0%95%EB%A6%89%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html">
+<style>*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#f8f9fb;--card-bg:#fff;--text:#1a1a2e;--text-sub:#6b7280;--pink:#e84393;--accent:#2563eb;--border:#e5e7eb;--radius:12px;--shadow-lg:0 4px 20px rgba(0,0,0,.08)}
+body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+.site-header{background:#fff;border-bottom:1px solid var(--border);padding:16px 0;position:sticky;top:0;z-index:100}
+.header-inner{max-width:960px;margin:0 auto;padding:0 20px;display:flex;flex-direction:column;align-items:center;gap:12px}
+.logo{font-weight:800;font-size:28px;color:var(--pink);text-decoration:none;letter-spacing:-.5px}
+.header-nav a{font-size:14px;color:var(--text-sub);text-decoration:none;margin:0 10px;font-weight:500}
+.header-nav a:hover{color:var(--pink)}
+.breadcrumb{max-width:960px;margin:0 auto;padding:16px 20px 0;font-size:16px;color:var(--pink);font-weight:600}
+.breadcrumb a{color:var(--pink);text-decoration:none}.breadcrumb a:hover{text-decoration:underline}.breadcrumb span{margin:0 6px}
+.hero{max-width:960px;margin:0 auto;padding:32px 20px 16px;text-align:center}
+.hero h1{font-size:28px;font-weight:800;letter-spacing:-.5px;margin-bottom:8px;line-height:1.3}
+.hero-sub{font-size:15px;color:var(--text-sub);margin-bottom:20px}
+.hero-stats{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.stat-chip{background:var(--card-bg);border:1px solid var(--border);border-radius:100px;padding:8px 16px;font-size:13px;font-weight:600}
+.score-info-box{max-width:960px;margin:0 auto 8px;padding:0 20px}
+.score-info-inner{background:#fdf2f8;border:1px solid #f9a8d4;border-left:4px solid var(--pink);border-radius:var(--radius);padding:16px 20px}
+.score-info-title{font-size:14px;font-weight:700;color:#be185d;margin-bottom:6px}
+.score-info-desc{font-size:13px;color:#9d174d;line-height:1.6;margin-bottom:10px}
+.score-info-levels{display:flex;gap:16px;flex-wrap:wrap}
+.score-level{font-size:12px;font-weight:600;padding:4px 10px;border-radius:100px}
+.score-level.green{background:#f0fdf4;color:#15803d}
+.score-level.orange{background:#fff7ed;color:#c2410c}
+.score-level.gray{background:#f9fafb;color:#6b7280;border:1px solid #e5e7eb}
+.filter-bar{max-width:960px;margin:0 auto;padding:8px 20px 20px;display:flex;gap:8px;flex-wrap:wrap}
+.filter-btn{background:var(--card-bg);border:1px solid var(--border);border-radius:100px;padding:8px 14px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;font-family:inherit;color:var(--text-sub);display:flex;align-items:center;gap:4px}
+.filter-btn:hover{border-color:var(--pink);color:var(--pink)}
+.filter-btn.active{background:var(--pink);color:#fff;border-color:var(--pink)}
+.filter-btn .count{font-size:11px;opacity:.7}
+.subject-section{max-width:960px;margin:0 auto;padding:0 20px}
+.section-header{display:flex;align-items:center;justify-content:space-between;padding:24px 0 8px;border-bottom:2px solid var(--text);margin-bottom:12px}
+.section-header h2{font-size:20px;font-weight:800}.section-count{font-size:13px;color:var(--text-sub);font-weight:500}
+.subject-section.hidden{display:none}
+.academy-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:box-shadow .2s,border-color .2s;margin-bottom:12px}
+.academy-card:hover{box-shadow:var(--shadow-lg);border-color:#d1d5db}
+.academy-card.hidden{display:none}
+.card-title-row{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:8px}
+.card-title-row h3{font-size:17px;font-weight:700;line-height:1.3}
+.score-badge{display:flex;flex-direction:column;align-items:center;padding:6px 14px;border-radius:10px;flex-shrink:0;min-width:72px}
+.score-label{font-size:10px;font-weight:600;opacity:.8}
+.score-number{font-size:22px;font-weight:800;line-height:1.1;letter-spacing:-1px}
+.card-meta{font-size:12px;margin-bottom:8px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.conc-badge{font-size:11px;font-weight:600;padding:3px 8px;border-radius:6px}
+.mention-text{font-size:12px;color:var(--text-sub)}
+.card-body{font-size:14px}.card-address{color:var(--text-sub);margin-bottom:4px}
+.card-phone{margin-bottom:4px}.card-phone a{color:var(--accent);text-decoration:none;font-weight:500}
+.card-links{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.link-btn{font-size:13px;padding:6px 12px;border-radius:8px;text-decoration:none;font-weight:500;transition:opacity .15s}
+.link-btn:hover{opacity:.8}.link-btn.kakao{background:#fee500;color:#3c1e1e}.link-btn.blog{background:#e8f5e9;color:#2e7d32}
+.more-btn-wrap{max-width:960px;margin:0 auto;padding:0 20px 16px}
+.more-btn{width:100%;padding:12px;background:var(--card-bg);border:1px dashed var(--border);border-radius:var(--radius);font-size:13px;color:var(--text-sub);cursor:pointer;font-family:inherit;font-weight:500;transition:all .15s}
+.more-btn:hover{border-color:var(--pink);color:var(--pink)}
+.list-section{max-width:960px;margin:0 auto;padding:0 20px 40px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.nav-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-decoration:none;color:var(--text);transition:box-shadow .2s,border-color .2s;display:block}
+.nav-card:hover{box-shadow:var(--shadow-lg);border-color:var(--pink)}
+.nav-card h3{font-size:16px;font-weight:700;margin-bottom:4px}
+.nav-card p{font-size:13px;color:var(--text-sub)}
+.site-footer{background:#fff;border-top:1px solid var(--border);padding:40px 20px;text-align:center}
+.footer-cta{font-size:15px;font-weight:600;margin-bottom:8px}.footer-cta a{color:var(--pink);text-decoration:none}
+.footer-copy{font-size:13px;color:var(--text-sub);margin-top:12px}.footer-copy a{color:var(--pink);text-decoration:none}
+@media(max-width:640px){.hero h1{font-size:22px}.header-nav a{margin:0 6px}.stat-chip{font-size:12px;padding:6px 12px}.filter-btn{padding:6px 10px;font-size:12px}.card-title-row{flex-direction:column;gap:8px}.score-badge{flex-direction:row;gap:8px;min-width:auto;padding:6px 12px}.score-info-levels{gap:8px}.section-header h2{font-size:17px}}</style></head><body>
+<header class="site-header"><div class="header-inner">
+<a href="https://themakings.co.kr/" class="logo">THE MAKINGS</a>
+<nav class="header-nav">
+<a href="/seoul/">서울</a><a href="/incheon/">인천</a><a href="/gyeonggi/">경기</a><a href="/busan/">부산</a><a href="/sejong/">세종</a><a href="/gwangju/">광주</a><a href="/ulsan/">울산</a><a href="/gangwon/">강원</a>
+</nav></div></header><div style="text-align:center;margin:20px auto;width:100%;display:flex;justify-content:center;"><div style="width:100%;max-width:960px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="4154182247" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div>
+<div class="breadcrumb"><a href="/">홈</a><span>›</span><a href="/gangwon/">강원</a><span>›</span><a href="/gangwon/gangneung/">강릉</a><span>›</span>강릉고등학교</div>
+<section class="hero">
+<h1>강릉고등학교<br><span style="font-size:20px;color:var(--text-sub)">근처 학원 리스트</span></h1>
+<p class="hero-sub">강원특별자치도 강릉 · 고등학교</p>
+<div class="hero-stats"><div class="stat-chip">📚 170개 학원</div><div class="stat-chip">🏫 전문도 기반 정렬</div></div></section>
+<div class="score-info-box"><div class="score-info-inner">
+<div class="score-info-title">📊 전문도란?</div>
+<div class="score-info-desc">이 학원이 블로그에서 우리 학교를 얼마나 집중적으로 언급했는지 보여주는 지표예요.<br>언급 횟수가 많고 집중도가 높을수록 우리 학교 학생들이 즐겨 찾는 학원일 가능성이 높습니다.</div>
+<div class="score-info-levels"><span class="score-level green">🟢 집중도 70%+ 전문</span><span class="score-level orange">🟠 40~69% 선호</span><span class="score-level gray">⚪ 40% 미만 지역</span></div>
+</div></div>
+<div class="filter-bar"><button class="filter-btn active" onclick="filterSubject('all',this)">전체 <span class="count">170</span></button><button class="filter-btn" onclick="filterSubject('영어',this)">영어 <span class="count">74</span></button><button class="filter-btn" onclick="filterSubject('수학',this)">수학 <span class="count">48</span></button><button class="filter-btn" onclick="filterSubject('종합/입시',this)">종합/입시 <span class="count">32</span></button><button class="filter-btn" onclick="filterSubject('국어',this)">국어 <span class="count">13</span></button><button class="filter-btn" onclick="filterSubject('과학',this)">과학 <span class="count">3</span></button></div>
+<div class="subject-section" data-subject="영어"><div class="section-header"><h2>영어</h2><span class="section-count">74개 학원</span></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>강릉에이닷영어학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">66</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">95% (전문)</span><span class="mention-text">블로그 19회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로5번길 52 , 4층 402호 (교동)</p><p class="card-phone">📞 <a href="tel:033-644-5465">033-644-5465</a></p><div class="card-links"><a href="http://place.map.kakao.com/274254491" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/adot_gangneung/224296012861" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>국어의훈련영어의비법학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">64</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">90% (전문)</span><span class="mention-text">블로그 18회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로 118 4층(유천동)</p><p class="card-phone">📞 <a href="tel:033-649-0592">033-649-0592</a></p><div class="card-links"><a href="https://blog.naver.com/realstudykorean/224192733657" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>하미어학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">61</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">85% (전문)</span><span class="mention-text">블로그 17회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로 78 , 2층 (교동)</p><div class="card-links"><a href="http://place.map.kakao.com/994865141" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/hahmyschool/224293344128" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>이재록어학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">59</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">80% (전문)</span><span class="mention-text">블로그 16회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 임영로 165 , 2층 (용강동)</p><div class="card-links"><a href="http://place.map.kakao.com/1317241861" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>교동택지레이첼영어학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">59</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">80% (전문)</span><span class="mention-text">블로그 16회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 가작로 71 2층, 205호(교동,부영아파트)</p><div class="card-links"><a href="https://blog.naver.com/influenc1031/224303917180" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>헤럴드어학원탱크수학입암학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">59</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 7회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕포남로 5 , 2층 (입암동)</p><p class="card-phone">📞 <a href="tel:033-643-0516">033-643-0516</a></p><div class="card-links"><a href="http://place.map.kakao.com/268679382" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>공터영어강릉교동센터학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">53</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">70% (전문)</span><span class="mention-text">블로그 14회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로 34 5층(교동)</p><p class="card-phone">📞 <a href="tel:033-922-0505">033-922-0505</a></p><div class="card-links"><a href="http://place.map.kakao.com/460028359" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/chis421/224304776018" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>삼성영어입암학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">53</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 용지로 53-1 , 2층 (입암동)</p><div class="card-links"><a href="http://place.map.kakao.com/22988408" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>헤럴드어학원탱크수학학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">53</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로 65 4층(교동)</p><div class="card-links"><a href="http://place.map.kakao.com/645994666" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>성덕숲어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">51</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">65% (선호)</span><span class="mention-text">블로그 13회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 강변로410번길 41 , 3층 (입암동)</p><div class="card-links"><a href="http://place.map.kakao.com/2067263345" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>이재록어학원내곡분원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">51</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 남부로125번길 39 , 3층 302-303호(내곡동,남산삼익아파트)</p><div class="card-links"><a href="http://place.map.kakao.com/2001473303" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>영반샘영어교습소</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">51</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 하평2길 6 , 청송아파트 상가동 206호 (포남동)</p><p class="card-phone">📞 <a href="tel:033-653-0604">033-653-0604</a></p><div class="card-links"><a href="https://blog.naver.com/damiano2000/224266339039" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>파로스어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">48</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">60% (선호)</span><span class="mention-text">블로그 12회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 교동광장로 135 , 2층 (교동)</p><p class="card-phone">📞 <a href="tel:033-644-7022">033-644-7022</a></p><div class="card-links"><a href="http://place.map.kakao.com/18450291" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/pharos644/224300766359" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>뮤엠영어학원주문진점</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">47</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 주문진읍 주문로 19 , 2층 (주문진읍)</p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>입암뮤엠영어교습소</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">47</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕로 328-15 (입암동,강릉입암동금호어울림아파트)상가 102동 104호</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="http://place.map.kakao.com/26879088" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>노부영영어드림강릉유천어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">45</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">55% (선호)</span><span class="mention-text">블로그 11회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로 72 204호 (홍제동)</p><div class="card-links"><a href="http://place.map.kakao.com/1903782437" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/nby_gn_/224292608028" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>둥굴레국어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">42</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 10회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로5번길 47 3층 302호(교동)</p><div class="card-links"><a href="http://place.map.kakao.com/2123622561" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/dunggullekorean/224303189941" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>노혜서중국어교습소</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">41</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">75% (전문)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 경강로 2170-1 , 4층 (옥천동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>차일드유베스타어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">40</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">55% (선호)</span><span class="mention-text">블로그 6회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 교동광장로 129 , 4층 (교동)</p><p class="card-phone">📞 <a href="tel:033-642-1470">033-642-1470</a></p><div class="card-links"><a href="http://place.map.kakao.com/26522317" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/akh0829/224003676927" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>잉글리시아이홍제어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">38</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">56% (선호)</span><span class="mention-text">블로그 5회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 토성로 92 2층(홍제동)</p><p class="card-phone">📞 <a href="tel:033-655-0525">033-655-0525</a></p><div class="card-links"><a href="http://place.map.kakao.com/1389249580" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>지와사랑국어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">36</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">40% (선호)</span><span class="mention-text">블로그 8회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로 77 2층(교동)</p><div class="card-links"><a href="http://place.map.kakao.com/911411691" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/jiwasarang57/224301635289" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>치코스랭귀지아카데미학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">34</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">67% (선호)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 교동광장로 139 , 2층 (교동)</p><div class="card-links"><a href="http://place.map.kakao.com/26477605" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>스마트해법영어강릉포남교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">33</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">35% (지역)</span><span class="mention-text">블로그 7회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 하평3길 37 , 상가 2층 212호 (포남동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="http://place.map.kakao.com/1293346279" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/geg245/224303042570" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>키라키라일본어교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">30</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">30% (지역)</span><span class="mention-text">블로그 6회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 임영로 204-1 , 3층 (교동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="http://place.map.kakao.com/352858403" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/melogkorea/224217391500" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>티에스(T.S.)영어교습소</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">30</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">40% (선호)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 범일로 674 (내곡동),1층</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/ts_english_/224162076854" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>트리니티영어교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">26</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">25% (지역)</span><span class="mention-text">블로그 5회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 회산로351번길 15 (회산동), 104호</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/myidok/224271817670" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>차일드유영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">22</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕포남로 17 , 2층 (입암동_차일드유영어학원)</p><div class="card-links"><a href="http://place.map.kakao.com/8102304" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/akh0829/224284290817" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>호소카와일본어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">22</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 보래미하길 28 , 1층 (포남동)</p><div class="card-links"><a href="http://place.map.kakao.com/26950616" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/study_life_24/224227027467" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>차일드유어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">22</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로 67 , 센트로빌딩 4층 404호 (홍제동)</p><div class="card-links"><a href="http://place.map.kakao.com/26522317" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/ubestagc/224300906198" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>박예슬국어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">22</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 교동광장로 125 , 2층 201호 (교동)</p><div class="card-links"><a href="http://place.map.kakao.com/1607756545" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/yo0un/224241088631" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>아인스영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">22</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로 79 2층 (교동)</p><div class="card-links"><a href="https://blog.naver.com/the1311/224300292591" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>3030영어학원입암점</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">17</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">15% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕포남로 17 , 3층 (입암동)</p><p class="card-phone">📞 <a href="tel:033-652-0505">033-652-0505</a></p><div class="card-links"><a href="https://blog.naver.com/3030englishandmath/224125150811" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>교동알파인영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">17</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">15% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로 83 2층(교동)</p><div class="card-links"><a href="http://place.map.kakao.com/228274165" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunyoung406/224292865144" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>프라임수학/3030영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">17</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">15% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 율곡로 2952 2층(교동)</p><p class="card-phone">📞 <a href="tel:033-645-0125">033-645-0125</a></p><div class="card-links"><a href="https://blog.naver.com/the1311/224204001791" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>하바킨더하우스학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">17</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">15% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 경포로 33-21 , 1·2층 (지변동)</p><p class="card-phone">📞 <a href="tel:033-642-1379">033-642-1379</a></p><div class="card-links"><a href="http://place.map.kakao.com/23026096" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>한민영영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">14</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">17% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 경강로 2160 , 2층 (옥천동)</p><div class="card-links"><a href="http://place.map.kakao.com/940964759" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>교동주니어랩영어한솔플러스수학교실학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">11</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">10% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 화부산로131번길 7 , 1층 (교동)</p><p class="card-phone">📞 <a href="tel:033-646-0582">033-646-0582</a></p><div class="card-links"><a href="http://place.map.kakao.com/10142224" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/trim9134/224143213638" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>송정점뮤엠영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">11</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">10% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 경강로 2455 , 2층 1호 (송정동)</p><p class="card-phone">📞 <a href="tel:033-653-6660">033-653-6660</a></p><div class="card-links"><a href="http://place.map.kakao.com/1434822443" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/song3399/224021989407" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>알파인영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">11</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">10% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로 91 , 4층 (교동)</p><div class="card-links"><a href="http://place.map.kakao.com/1577278601" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/yerammee/224302002218" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>3030영어송정어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">11</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">10% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 송정길 9 , 2층(송정동)</p><div class="card-links"><a href="http://place.map.kakao.com/1464773029" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/the1311/224300292591" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>3030영어학원(내곡점)</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">40</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 강변로 74-26 , 3층 (회산동)</p><p class="card-phone">📞 <a href="tel:033-6423-031">033-6423-031</a></p><div class="card-links"><a href="http://place.map.kakao.com/1864441665" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>삼성영어택지점교습소</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">40</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 원대로 143 , 1층 (교동)</p><p class="card-phone">📞 <a href="tel:033-641-7905">033-641-7905</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>이승길영어교습소</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">40</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 가작로 71 , 304호 (교동,부영아파트)</p><p class="card-phone">📞 <a href="tel:033-641-0594">033-641-0594</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>릴리쌤의톡톡영어교습소</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">40</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 주문진읍 주문로 17 (주문진읍)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="http://place.map.kakao.com/917229877" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>에스앤에스(S&S)영어교습소</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">40</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 연당길 70 3층(초당동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>뮤엠영어홍제점영어교습소</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">40</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 토성로 67 , 2층 (홍제동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223937044485" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>Booksie English(북시 잉글리시)영어교습소</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">40</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원도 강릉시 성덕포남로 22-4 , 105호 (입암동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>영승영어교습소</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">40</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 경강로 2498 , 2층 201호, 202호 (송정동, 강릉송정 신원아침도시)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>어뉴잉글리쉬영어교습소</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">40</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 용지로 24 (입암동),2층</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>숲어학원회산점</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">21</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 회산로351번길 8-1 , 2층 (회산동)</p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>차일드유PLS영어교실교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">14</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">33% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 연당길 63 , 2층 (초당동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>IBT(아이비티)주니어교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">6</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">14% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 토성로 118 , 2층 (용강동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>디앤비잉글리쉬(DNBENGLISH)영어교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">5</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">10% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로63번길 14-16 (홍제동), 306호</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>피비영어교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">4</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">8% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 강변로 74-13 , 1층 (회산동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/jm111jm/224108387978" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>동명해법영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 경강로2539번길 15 , 2층 (견소동)</p><p class="card-phone">📞 <a href="tel:033-652-0506">033-652-0506</a></p><div class="card-links"><a href="https://blog.naver.com/the1311/224267935701" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>베리타스국어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로 93 , 2층 (교동)</p><p class="card-phone">📞 <a href="tel:033-641-7229">033-641-7229</a></p><div class="card-links"><a href="http://place.map.kakao.com/12966669" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/educationstory/224304061497" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>능률주니어랩스쿨율곡어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 율곡초교길39번길 19-4 (교동)</p><p class="card-phone">📞 <a href="tel:033-641-0533">033-641-0533</a></p><div class="card-links"><a href="https://blog.naver.com/myidok/224102748148" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>코넬어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 경강로 2201 , 3층 (옥천동)</p><p class="card-phone">📞 <a href="tel:033-640-0002">033-640-0002</a></p><div class="card-links"><a href="https://blog.naver.com/hansoo8824/224304172348" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>웰이스턴영어수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">6% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 정원로 44 , 2층 (교동_웰이스턴영어수학학원)</p><div class="card-links"><a href="http://place.map.kakao.com/893429472" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/goodbels/224223555345" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>영어의칼리버학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 옥천로 34 4층 (옥천동)</p><div class="card-links"><a href="http://place.map.kakao.com/2102776418" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/dxcvb/224288226953" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>EiE고려대학교국제어학원셀파스터디학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 연곡면 영진3길 17 , 201호 (연곡면, 연곡부영사랑으로 아파트)</p><div class="card-links"><a href="http://place.map.kakao.com/2019411606" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eiekor/224210658925" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>유천숲영어전문학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로 114 , 3층 (유천동)</p><div class="card-links"><a href="http://place.map.kakao.com/887310556" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/mokdongacademy/224304669064" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>스텝(step)영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕포남로 21-7 , 2층 (입암동)</p><p class="card-phone">📞 <a href="tel:033-652-0584">033-652-0584</a></p><div class="card-links"><a href="http://place.map.kakao.com/95189592" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/chord3/224297931681" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>토크하우영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 범일로 647 , 2층 202호 (내곡동)</p><div class="card-links"><a href="http://place.map.kakao.com/936926413" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/xooang987/224301811324" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>아발론교육(AVALON English)학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕포남로 212 , 1·2층 (포남동)</p><p class="card-phone">📞 <a href="tel:033-651-4001">033-651-4001</a></p><div class="card-links"><a href="http://place.map.kakao.com/20644365" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/cswoogie/224267799115" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>Eton(이튼)영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 하평6길 63 , 1층 (포남동)</p><p class="card-phone">📞 <a href="tel:033-652-0517">033-652-0517</a></p><div class="card-links"><a href="http://place.map.kakao.com/18232449" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/etonprep/224210268331" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>김흥수영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 교동광장로 137 , 2층 (교동)</p><p class="card-phone">📞 <a href="tel:033-655-0550">033-655-0550</a></p><div class="card-links"><a href="http://place.map.kakao.com/10199813" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/hongtiartvillage/224155484043" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>오만한영어수학주문진학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 주문진읍 신리길 3 , 2층 (주문진읍)</p><p class="card-phone">📞 <a href="tel:033-661-0550">033-661-0550</a></p><div class="card-links"><a href="https://blog.naver.com/sharon6987/224250582963" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>푸르넷아카데미영어교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 토성로 96 (홍제동)</p><p class="card-phone">📞 <a href="tel:033-643-2926">033-643-2926</a></p><div class="card-links"><a href="https://blog.naver.com/sek6146/224229518075" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>Apex(에이펙스)영어교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕로 316-15 , 2층 (아안타운상가) (입암동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/hansera_english/224286550509" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>필로스영어교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 하평2길 6 , 305호 (포남동)</p><p class="card-phone">📞 <a href="tel:033-653-0579">033-653-0579</a></p><div class="card-links"><a href="https://blog.naver.com/myidok/224136491951" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>일론영어교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">6% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 토성로 114 (홍제동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/waymaker360-cheonan/224289159668" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>SEL영어교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 율곡초교길39번길 19-4 , SEL영어교습소 (교동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="http://place.map.kakao.com/1136388419" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/samsungee/224258033636" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>박정은영어교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로63번길 14-16 (홍제동),205호(우측)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/myidok/224256975292" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this,'영어')">▼ 1회 언급 학원 34개 더 보기</button></div></div><div style="text-align:center;margin:28px auto;width:100%;display:flex;justify-content:center;"><div style="width:100%;max-width:960px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="3283693943" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div><div class="subject-section" data-subject="수학"><div class="section-header"><h2>수학</h2><span class="section-count">48개 학원</span></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>수올림수학전문학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">66</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">95% (전문)</span><span class="mention-text">블로그 19회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로5번길 52 , 5층 501호 (교동)</p><div class="card-links"><a href="http://place.map.kakao.com/587258728" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/sooolim_math/224209291973" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>BHL와와영수학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">53</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 하평2길 7 , 2층 (포남동)</p><p class="card-phone">📞 <a href="tel:033-652-2905">033-652-2905</a></p><div class="card-links"><a href="http://place.map.kakao.com/2086333836" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>캣치업영수학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">51</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">65% (선호)</span><span class="mention-text">블로그 13회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로 67 , 401호 (홍제동)</p><div class="card-links"><a href="http://place.map.kakao.com/2075593617" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/catchup_edu/224289507435" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>강릉이젠수학학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">51</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">65% (선호)</span><span class="mention-text">블로그 13회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로 67 , 2층 201호 (홍제동)</p><div class="card-links"><a href="http://place.map.kakao.com/247960684" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/trim9134/224302277984" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>최옥곤수학교습소</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">47</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 명주로 40 , 1층 (홍제동)</p><p class="card-phone">📞 <a href="tel:033-647-0979">033-647-0979</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>쎈수학러닝센터유천드림학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">43</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">53% (선호)</span><span class="mention-text">블로그 9회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로 67 , 304호 (홍제동)</p><div class="card-links"><a href="http://place.map.kakao.com/455833263" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/myidok/224129301297" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>빨간펜수학의달인강릉초점수학교습소</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">36</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">40% (선호)</span><span class="mention-text">블로그 8회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 토성로 102 , 1층 (홍제동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/jhjyzzang/224244090813" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>정연선수학학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">34</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">67% (선호)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 경강로 2241 , 3층 (포남동)</p><p class="card-phone">📞 <a href="tel:033-642-2007">033-642-2007</a></p><div class="card-links"><a href="http://place.map.kakao.com/10717116" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/inxvuii/224271273590" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>씨네틱씽크에듀강릉교동점창의수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">33</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">35% (지역)</span><span class="mention-text">블로그 7회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 율곡초교길39번길 19-14 , 1층 (교동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/the1311/224300292591" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>길샘수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">30</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">30% (지역)</span><span class="mention-text">블로그 6회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕포남로 46 , 3층 (입암동_길샘수학학원)</p><p class="card-phone">📞 <a href="tel:033-642-5353">033-642-5353</a></p><div class="card-links"><a href="http://place.map.kakao.com/467118144" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/chimy415/224304666684" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>SI독학재수학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">26</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">25% (지역)</span><span class="mention-text">블로그 5회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 정원로 42 , 4층 (교동)</p><div class="card-links"><a href="http://place.map.kakao.com/2008339904" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/gagamel0000/224302357647" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>CNS Education수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">22</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로 91 , 3층 (교동)</p><div class="card-links"><a href="https://blog.naver.com/goldbugsuk/224292033709" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>장은경수학전문학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">19</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 연곡면 영진길 30 , 2층 (연곡면)</p><div class="card-links"><a href="http://place.map.kakao.com/1681551539" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>Math4U(메스포유)수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">14</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">17% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 하평4길 45 , 1층 (포남동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/myidok/224236670843" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>이보람수학과학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">11</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">10% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 하평길 73 , 1층 (포남동)</p><div class="card-links"><a href="http://place.map.kakao.com/2005427118" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/pjumoses65/224264167698" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>피타수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">11</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">10% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로 93 , 정도빌딩 3층 (교동)</p><div class="card-links"><a href="http://place.map.kakao.com/1425180717" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/siburung0909/224297225929" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>교동PF Math(피에프 매쓰)수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">11</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">10% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로 79 , 4층 (교동)</p><div class="card-links"><a href="http://place.map.kakao.com/268104172" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/bluenine1498-/224285320696" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>민쌤수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">11</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">10% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 회산로351번길 15 , 1층 (회산동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="http://place.map.kakao.com/705070252" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/homelearn042/224228812718" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>남산하이푸르넷수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">11</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">10% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 강변로194번길 17 ,2층 (내곡동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/yjsjhs/224241798427" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>매스덕수학전문학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">40</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 경강로 2195 , 3층 (옥천동)</p><p class="card-phone">📞 <a href="tel:033-646-3121">033-646-3121</a></p><div class="card-links"><a href="http://place.map.kakao.com/612791424" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>율곡푸르넷수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">14</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">33% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 율곡초교길39번길 22-1 , 1층 (교동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>수오름수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">9</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로 55 , 우미린 상가동 201호 (홍제동,우미린아파트)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="http://place.map.kakao.com/38321244" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>쏙쏙스펀지수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">8</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">17% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 남부로125번길 37 , 204호 (내곡동,남산삼익아파트)</p><p class="card-phone">📞 <a href="tel:033-646-9009">033-646-9009</a></p><div class="card-links"><a href="http://place.map.kakao.com/797406442" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>성덕악어수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">6</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">14% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 강변로410번길 41 , 2층 (입암동)</p><div class="card-links"><a href="http://place.map.kakao.com/1243209592" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/soomin121111/224134988865" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>쑥샘수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">6</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">12% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕포남로 22-4 (입암동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/ssman0601/224162883366" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>푸르넷초당수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">6</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">14% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 강릉대로527번길 21 , 1층 (포남동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>리얼M수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">5</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">10% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 교동광장로 138-14 , 203호 (교동,교동주공3단지아파트)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/myidok/224269577966" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>혜다수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">5</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">10% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 경강로 2446 , 송정한신더휴 근린생활시설 104호(송정동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>생각이자라는푸르넷 남강점수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">4</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">7% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 경강로 2330 , 2층 (포남동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/yjsjhs/223977553268" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>Can(캔)수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 홍제로46번길 12 , 2층 (홍제동)</p><div class="card-links"><a href="http://place.map.kakao.com/529605976" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/sunho___/224293742728" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>아이캔수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 연당길 63 (초당동)</p><p class="card-phone">📞 <a href="tel:033-651-8848">033-651-8848</a></p><div class="card-links"><a href="https://blog.naver.com/icanuhak/224284267721" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>쎈수학한솔드림학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 하평길 40 , 3층 (포남동)</p><div class="card-links"><a href="http://place.map.kakao.com/2105713402" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/gangmom_/224153256089" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>유샘수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 교동광장로 135 , 3층 (교동)</p><div class="card-links"><a href="http://place.map.kakao.com/1685300961" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/smp9226/224304672994" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>매쓰랩수학학원포남점</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 하평5길 32 , 1층 (포남동)</p><div class="card-links"><a href="http://place.map.kakao.com/1397610631" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/stmath2018/224303748179" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>파로스심화수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로5번길 3 , 3층 (교동)</p><div class="card-links"><a href="http://place.map.kakao.com/1150821106" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/pharos_math123/224285276626" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>PF math(피에프 매쓰)수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로 83 , 3층(교동)</p><div class="card-links"><a href="http://place.map.kakao.com/268104172" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/bluenine1498-/224285320696" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>마쌤수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 회산로 348-31 , 3층 301호 (회산동)</p><div class="card-links"><a href="https://blog.naver.com/yyyyxny/224289640017" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>매쓰랩수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 교동광장로 143 , 3층 (교동)</p><div class="card-links"><a href="http://place.map.kakao.com/951540194" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/stmath2018/224303748179" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>빨간펜수학의달인박쌤학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕로 328-15 , 120동 301-303호(입암동, 강릉입암동금호어울림아파트상가)</p><div class="card-links"><a href="https://blog.naver.com/psn4395/224231569939" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>늘찬수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 하평5길 48 , 1층(포남동)</p><div class="card-links"><a href="http://place.map.kakao.com/409043567" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/oilsea1/224239255190" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>아이캔영수학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 주문진읍 주문로 17 , 2층 (주문진읍)</p><p class="card-phone">📞 <a href="tel:033-662-0582">033-662-0582</a></p><div class="card-links"><a href="http://place.map.kakao.com/1750155298" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/myidok/224269536682" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>제우스영수학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 경강로2539번길 15 , 3층 (견소동)</p><p class="card-phone">📞 <a href="tel:033-655-3355">033-655-3355</a></p><div class="card-links"><a href="http://place.map.kakao.com/1444892464" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/yjsjhs/224259439137" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>이엘수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 남부로125번길 24 , 202호 (노암동)</p><p class="card-phone">📞 <a href="tel:033-644-3688">033-644-3688</a></p><div class="card-links"><a href="http://place.map.kakao.com/1872266690" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/chlghrb1741/224303078663" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>아이스터디수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕포남로 5 , 1층 (입암동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>푸르넷아카데미수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 경강로2539번길 8 , 상가동 105호 (견소동,견소동 한신아파트)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/sek6146/224229518075" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>네트(Net)수학교실수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 용지로 19 , 203호 (입암동, 입암현대아파트)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="http://place.map.kakao.com/1886491231" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>악어수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 홍제로 76 , 1층 102호 (홍제동, DS빌딩)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/the1311/224300292591" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>곽쌤수학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로63번길 14-16 2층 207호</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="http://place.map.kakao.com/2109518306" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/myidok/224230021274" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this,'수학')">▼ 1회 언급 학원 29개 더 보기</button></div></div><div class="subject-section" data-subject="종합/입시"><div class="section-header"><h2>종합/입시</h2><span class="section-count">32개 학원</span></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>강릉공무원학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">61</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">85% (전문)</span><span class="mention-text">블로그 17회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로5번길 55 , 8층 (교동_강릉공무원학원)</p><div class="card-links"><a href="http://place.map.kakao.com/21569371" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/happytime2016/224304231418" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>잉글리시아이송정점학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">61</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">85% (전문)</span><span class="mention-text">블로그 17회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 경강로 2511 , 203-204호(송정동, 강릉아이파크 근린생활시설2)</p><div class="card-links"><a href="http://place.map.kakao.com/1492693846" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/namhae1024/224301814229" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>몬테벨강릉센터학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">60</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 8회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕로 328-18 (입암동), 201호</p><div class="card-links"><a href="http://place.map.kakao.com/1419836635" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/224112031510" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>아소비학원강릉입암점</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">59</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 7회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕포남로 40 , 3층 (입암동)</p><div class="card-links"><a href="http://place.map.kakao.com/1870566163" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/asobikw/224269589418" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>아소비강릉유천학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">57</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">78% (전문)</span><span class="mention-text">블로그 14회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로63번길 14-16 3층(홍제동)</p><div class="card-links"><a href="http://place.map.kakao.com/1674960580" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/sora9506/224275705685" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>주문진율곡학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">53</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">70% (전문)</span><span class="mention-text">블로그 14회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 주문진읍 신리천로 56 , 3층 (주문진읍)</p><div class="card-links"><a href="http://place.map.kakao.com/1744702312" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/wawaeducenter/224303923479" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>지앤비패럴랙스교동택지학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">42</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 10회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로 67 , 3층 (교동)</p><div class="card-links"><a href="https://blog.naver.com/stopia0979/224298145475" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>뉴스터디입암학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">35</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">60% (선호)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕로 328-18 , 204호 (입암동)</p><div class="card-links"><a href="https://blog.naver.com/yjsjhs/224300013764" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>매경강릉법학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">30</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">30% (지역)</span><span class="mention-text">블로그 6회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 강릉대로 189 (교동)</p><div class="card-links"><a href="https://blog.naver.com/trim9134/224302277984" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>주문진더웰학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">27</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 연곡면 영진3길 26-6 , 2층 (연곡면)</p><p class="card-phone">📞 <a href="tel:033-662-6242">033-662-6242</a></p><div class="card-links"><a href="http://place.map.kakao.com/19221893" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>에듀코치개별지도교동학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">22</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로 74-1 , 4층 (교동)</p><div class="card-links"><a href="http://place.map.kakao.com/578692296" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/gangmom_/224205317958" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>와이즈만영재교육강릉학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">17</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">15% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 교동광장로 139 , 3층 (교동)</p><p class="card-phone">📞 <a href="tel:033-644-1184">033-644-1184</a></p><div class="card-links"><a href="http://place.map.kakao.com/17658431" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/gangmom_/223996025752" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>왓츠잉글리시학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">17</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">15% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 남부로 147 , 3층 (노암동)</p><p class="card-phone">📞 <a href="tel:033-647-9981">033-647-9981</a></p><div class="card-links"><a href="http://place.map.kakao.com/1452636722" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/miracxloxs/224204534574" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>영동고시학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">11</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">10% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 문화의길 9 2층 202호(임당동)</p><p class="card-phone">📞 <a href="tel:033-646-5611">033-646-5611</a></p><div class="card-links"><a href="http://place.map.kakao.com/8009161" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/redeagle993/224302722158" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>비상잉글리시아이남산내곡학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">11</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">10% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 남부로125번길 26 , 2층 (내곡동)</p><p class="card-phone">📞 <a href="tel:033-647-1709">033-647-1709</a></p><div class="card-links"><a href="http://place.map.kakao.com/1641322884" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/jojzzang77/224244414471" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>정석학원입암점</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">40</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕로 316-17 , 2층 (입암동)</p><div class="card-links"><a href="http://place.map.kakao.com/86991023" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>셀파우등생교실입암점학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">40</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕포남로 17 , 3층(입암동)</p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>더쌤영수내곡학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">40</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 남산초교길 15-2 (내곡동)</p><p class="card-phone">📞 <a href="tel:033-648-0020">033-648-0020</a></p><div class="card-links"><a href="http://place.map.kakao.com/2100407532" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>구쌤플러스(+)학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">11</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">25% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕포남로182번길 46 3층 (포남동)</p><div class="card-links"><a href="http://place.map.kakao.com/857954928" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>인우학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 범일로 647 , 내곡현대상가 2층 (내곡동)</p><p class="card-phone">📞 <a href="tel:033-644-1253">033-644-1253</a></p><div class="card-links"><a href="http://place.map.kakao.com/19077412" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/jiwxnll/224303226613" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>The H(더 에이치)학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 교동광장로 115 , 4층 (교동)</p><p class="card-phone">📞 <a href="tel:033-655-1110">033-655-1110</a></p><div class="card-links"><a href="https://blog.naver.com/jackiecycle1999/224245541263" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>스터디멘토학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 남부로 131 , 2층 (노암동)</p><div class="card-links"><a href="http://place.map.kakao.com/21061602" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/mento_math/224301679981" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>대한종합부동산학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 남구길17번길 2 , 4층 (포남동)</p><div class="card-links"><a href="https://blog.naver.com/renorous/224303664623" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>CMS(씨엠에스)융합사고력강릉센터학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로 66 , 3층 (교동)</p><p class="card-phone">📞 <a href="tel:033-643-8620">033-643-8620</a></p><div class="card-links"><a href="http://place.map.kakao.com/24792971" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/oly_cms_mg/224304756933" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>웅진씽크빅학습센터입암학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕포남로 21 , 3층 (입암동_웅진씽크빅학습센터)</p><div class="card-links"><a href="https://blog.naver.com/influenc1031/224303917180" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>KP반석학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕로 316-15 , 2·3층 (입암동)</p><div class="card-links"><a href="http://place.map.kakao.com/396728897" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/skyu0021/224137945162" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>와와학습코칭학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 정원로 44 2층 202호(교동)</p><p class="card-phone">📞 <a href="tel:033-745-7551">033-745-7551</a></p><div class="card-links"><a href="http://place.map.kakao.com/1400239156" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/ajma714/224303754291" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>푸르넷탑아카데미학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 강변로 74-24 , 202호 (회산동)</p><div class="card-links"><a href="http://place.map.kakao.com/1635143298" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/dihan0711/224228778834" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>커넥츠프랩공시관학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로5번길 55 , 8층 (교동)</p><div class="card-links"><a href="http://place.map.kakao.com/75898529" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/careerin/224242307152" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>세움명문학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로5번길 55 , 5층 (교동)</p><div class="card-links"><a href="https://blog.naver.com/seumenglish/224276293364" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>공감학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕로 352-40 , 2층(입암동)</p><div class="card-links"><a href="http://place.map.kakao.com/1957270830" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/qbhook/224304871750" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>드림온입시컨설팅학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 입암로 139 , 2층 201호 (입암동)</p><div class="card-links"><a href="https://blog.naver.com/dream_on_scene/224223689953" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this,'종합/입시')">▼ 1회 언급 학원 17개 더 보기</button></div></div><div class="subject-section" data-subject="국어"><div class="section-header"><h2>국어</h2><span class="section-count">13개 학원</span></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>배정순독서논술학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">44</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">71% (전문)</span><span class="mention-text">블로그 5회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로 124 4층(유천동)</p><div class="card-links"><a href="http://place.map.kakao.com/1184232294" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/224112031510" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>박수비국어교습소</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">41</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">62% (선호)</span><span class="mention-text">블로그 5회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로 67 , 303호 (홍제동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/gangmom_/224205317958" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>파각독서논술학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">36</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">40% (선호)</span><span class="mention-text">블로그 8회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로 72 ,201호 (홍제동)</p><div class="card-links"><a href="https://blog.naver.com/edu_breakaleg/224018714337" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>반딧불이논술교습소2호점</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">31</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 가작로 23-1 , 103호 (교동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/224112031510" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>한우리독서토론논술강릉교동논술교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">22</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 율곡초교길39번길 29-1 (교동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/kmh8104/224303422817" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>반딧불이논술교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">18</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">17% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 가작로 23-1 , 1층 102호 (교동)</p><p class="card-phone">📞 <a href="tel:033-643-5518">033-643-5518</a></p><div class="card-links"><a href="http://place.map.kakao.com/735403079" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/224112031510" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="국어" data-once="1">
+<div class="card-title-row"><h3>리딩아이강릉학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">40</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로 116 , 4층 (유천동)</p><div class="card-links"><a href="http://place.map.kakao.com/75744252" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/jbkang0114/223978259655" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="국어" data-once="1">
+<div class="card-title-row"><h3>김기동작가논술교습소</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d"><span class="score-label">전문도</span><span class="score-number">40</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 성덕포남로 24 , 105호(입암동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="국어" data-once="1">
+<div class="card-title-row"><h3>아비투어독서·논술교습소</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c"><span class="score-label">전문도</span><span class="score-number">21</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로63번길 14-16 , 302호 (홍제동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="http://place.map.kakao.com/2112477184" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/eunshilys/223968291073" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="국어" data-once="1">
+<div class="card-title-row"><h3>온과즈믄국어논술교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로5번길 49 , 4층 (교동)</p><p class="card-phone">📞 <a href="tel:033-644-9395">033-644-9395</a></p><div class="card-links"><a href="http://place.map.kakao.com/484594783" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/sunnynonsul/224295987306" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="국어" data-once="1">
+<div class="card-title-row"><h3>글샘국어교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 용지로 19 , 204호 (입암동,입암현대아파트)</p><p class="card-phone">📞 <a href="tel:033-641-2592">033-641-2592</a></p><div class="card-links"><a href="https://blog.naver.com/rumibookdongnae/224304823562" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="국어" data-once="1">
+<div class="card-title-row"><h3>꿈꾸는서가라온논술교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 교동광장로 139 , 501호 (교동)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/kmh8104/224303422817" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="국어" data-once="1">
+<div class="card-title-row"><h3>우리모두한국어교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">3</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">5% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로 67 , 301호(홍제동, 센트로빌딩)</p><p class="card-phone">📞 <a href="tel:033-648-5020">033-648-5020</a></p><div class="card-links"><a href="https://blog.naver.com/speakupdongtan/224298985743" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this,'국어')">▼ 1회 언급 학원 7개 더 보기</button></div></div><div class="subject-section" data-subject="과학"><div class="section-header"><h2>과학</h2><span class="section-count">3개 학원</span></div><div class="academy-card" data-subject="과학">
+<div class="card-title-row"><h3>유천더과학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">22</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 선수촌로63번길 14-16 (홍제동), 205호</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/yjsjhs/224241798427" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="과학">
+<div class="card-title-row"><h3>아이작과학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">11</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">10% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 솔올로 74-1 5층(교동)</p><div class="card-links"><a href="http://place.map.kakao.com/764694575" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/slobbie_thebook/224304835803" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="과학">
+<div class="card-title-row"><h3>맑음과학교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280"><span class="score-label">전문도</span><span class="score-number">11</span></div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">10% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 강원특별자치도 강릉시 교동광장로 138-14 , 상가동 2층 8호 (교동, 교동주공3단지아파트)</p><p class="card-phone">📞 <a href="tel:0">0</a></p><div class="card-links"><a href="https://blog.naver.com/kfme-pt/224223243947" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div></div><div style="text-align:center;margin:32px auto 0;width:100%;display:flex;justify-content:center;"><div style="width:100%;max-width:960px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="7446830466" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div><footer class="site-footer">
+<p class="footer-cta">학원 등록 및 광고 문의: <a href="mailto:themakings.official01@gmail.com">themakings.official01@gmail.com</a></p>
+<p class="footer-copy">© 2026 THE MAKINGS · <a href="https://themakings.co.kr">메인으로 돌아가기</a></p>
+</footer><script>
+function filterSubject(subj, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.subject-section').forEach(sec => {
+        sec.classList.toggle('hidden', subj !== 'all' && sec.dataset.subject !== subj);
+    });
+}
+function toggleMore(btn, subj) {
+    const cards = document.querySelectorAll(`.academy-card[data-subject="${subj}"][data-once="1"]`);
+    const isHidden = cards[0] && cards[0].classList.contains('hidden');
+    cards.forEach(c => c.classList.toggle('hidden', !isHidden));
+    btn.textContent = isHidden ? '▲ 1회 언급 학원 접기' : `▼ 1회 언급 학원 ${cards.length}개 더 보기`;
+}
+</script></body></html>

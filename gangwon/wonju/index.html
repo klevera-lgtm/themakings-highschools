@@ -1,0 +1,85 @@
+<!DOCTYPE html><html lang="ko"><head>
+<meta charset="UTF-8"><meta name="google-site-verification" content="PRWEzwLvpx79mTySGb6sEvFHtoNITEBuCbyXQbhCDDA" />
+<meta name="naver-site-verification" content="2807a8fa5fd31106baffa35c7726e7fa0133b97a" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<title>강원 원주 고등학교 학원 리스트 | THE MAKINGS</title>
+<meta name="description" content="강원특별자치도 원주 18개 고등학교별 전문 학원 리스트.">
+<link rel="canonical" href="https://highschool.themakings.co.kr/gangwon/wonju/">
+<style>*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#f8f9fb;--card-bg:#fff;--text:#1a1a2e;--text-sub:#6b7280;--pink:#e84393;--accent:#2563eb;--border:#e5e7eb;--radius:12px;--shadow-lg:0 4px 20px rgba(0,0,0,.08)}
+body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+.site-header{background:#fff;border-bottom:1px solid var(--border);padding:16px 0;position:sticky;top:0;z-index:100}
+.header-inner{max-width:960px;margin:0 auto;padding:0 20px;display:flex;flex-direction:column;align-items:center;gap:12px}
+.logo{font-weight:800;font-size:28px;color:var(--pink);text-decoration:none;letter-spacing:-.5px}
+.header-nav a{font-size:14px;color:var(--text-sub);text-decoration:none;margin:0 10px;font-weight:500}
+.header-nav a:hover{color:var(--pink)}
+.breadcrumb{max-width:960px;margin:0 auto;padding:16px 20px 0;font-size:16px;color:var(--pink);font-weight:600}
+.breadcrumb a{color:var(--pink);text-decoration:none}.breadcrumb a:hover{text-decoration:underline}.breadcrumb span{margin:0 6px}
+.hero{max-width:960px;margin:0 auto;padding:32px 20px 16px;text-align:center}
+.hero h1{font-size:28px;font-weight:800;letter-spacing:-.5px;margin-bottom:8px;line-height:1.3}
+.hero-sub{font-size:15px;color:var(--text-sub);margin-bottom:20px}
+.hero-stats{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.stat-chip{background:var(--card-bg);border:1px solid var(--border);border-radius:100px;padding:8px 16px;font-size:13px;font-weight:600}
+.score-info-box{max-width:960px;margin:0 auto 8px;padding:0 20px}
+.score-info-inner{background:#fdf2f8;border:1px solid #f9a8d4;border-left:4px solid var(--pink);border-radius:var(--radius);padding:16px 20px}
+.score-info-title{font-size:14px;font-weight:700;color:#be185d;margin-bottom:6px}
+.score-info-desc{font-size:13px;color:#9d174d;line-height:1.6;margin-bottom:10px}
+.score-info-levels{display:flex;gap:16px;flex-wrap:wrap}
+.score-level{font-size:12px;font-weight:600;padding:4px 10px;border-radius:100px}
+.score-level.green{background:#f0fdf4;color:#15803d}
+.score-level.orange{background:#fff7ed;color:#c2410c}
+.score-level.gray{background:#f9fafb;color:#6b7280;border:1px solid #e5e7eb}
+.filter-bar{max-width:960px;margin:0 auto;padding:8px 20px 20px;display:flex;gap:8px;flex-wrap:wrap}
+.filter-btn{background:var(--card-bg);border:1px solid var(--border);border-radius:100px;padding:8px 14px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;font-family:inherit;color:var(--text-sub);display:flex;align-items:center;gap:4px}
+.filter-btn:hover{border-color:var(--pink);color:var(--pink)}
+.filter-btn.active{background:var(--pink);color:#fff;border-color:var(--pink)}
+.filter-btn .count{font-size:11px;opacity:.7}
+.subject-section{max-width:960px;margin:0 auto;padding:0 20px}
+.section-header{display:flex;align-items:center;justify-content:space-between;padding:24px 0 8px;border-bottom:2px solid var(--text);margin-bottom:12px}
+.section-header h2{font-size:20px;font-weight:800}.section-count{font-size:13px;color:var(--text-sub);font-weight:500}
+.subject-section.hidden{display:none}
+.academy-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:box-shadow .2s,border-color .2s;margin-bottom:12px}
+.academy-card:hover{box-shadow:var(--shadow-lg);border-color:#d1d5db}
+.academy-card.hidden{display:none}
+.card-title-row{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:8px}
+.card-title-row h3{font-size:17px;font-weight:700;line-height:1.3}
+.score-badge{display:flex;flex-direction:column;align-items:center;padding:6px 14px;border-radius:10px;flex-shrink:0;min-width:72px}
+.score-label{font-size:10px;font-weight:600;opacity:.8}
+.score-number{font-size:22px;font-weight:800;line-height:1.1;letter-spacing:-1px}
+.card-meta{font-size:12px;margin-bottom:8px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.conc-badge{font-size:11px;font-weight:600;padding:3px 8px;border-radius:6px}
+.mention-text{font-size:12px;color:var(--text-sub)}
+.card-body{font-size:14px}.card-address{color:var(--text-sub);margin-bottom:4px}
+.card-phone{margin-bottom:4px}.card-phone a{color:var(--accent);text-decoration:none;font-weight:500}
+.card-links{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.link-btn{font-size:13px;padding:6px 12px;border-radius:8px;text-decoration:none;font-weight:500;transition:opacity .15s}
+.link-btn:hover{opacity:.8}.link-btn.kakao{background:#fee500;color:#3c1e1e}.link-btn.blog{background:#e8f5e9;color:#2e7d32}
+.more-btn-wrap{max-width:960px;margin:0 auto;padding:0 20px 16px}
+.more-btn{width:100%;padding:12px;background:var(--card-bg);border:1px dashed var(--border);border-radius:var(--radius);font-size:13px;color:var(--text-sub);cursor:pointer;font-family:inherit;font-weight:500;transition:all .15s}
+.more-btn:hover{border-color:var(--pink);color:var(--pink)}
+.list-section{max-width:960px;margin:0 auto;padding:0 20px 40px}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.nav-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-decoration:none;color:var(--text);transition:box-shadow .2s,border-color .2s;display:block}
+.nav-card:hover{box-shadow:var(--shadow-lg);border-color:var(--pink)}
+.nav-card h3{font-size:16px;font-weight:700;margin-bottom:4px}
+.nav-card p{font-size:13px;color:var(--text-sub)}
+.site-footer{background:#fff;border-top:1px solid var(--border);padding:40px 20px;text-align:center}
+.footer-cta{font-size:15px;font-weight:600;margin-bottom:8px}.footer-cta a{color:var(--pink);text-decoration:none}
+.footer-copy{font-size:13px;color:var(--text-sub);margin-top:12px}.footer-copy a{color:var(--pink);text-decoration:none}
+@media(max-width:640px){.hero h1{font-size:22px}.header-nav a{margin:0 6px}.stat-chip{font-size:12px;padding:6px 12px}.filter-btn{padding:6px 10px;font-size:12px}.card-title-row{flex-direction:column;gap:8px}.score-badge{flex-direction:row;gap:8px;min-width:auto;padding:6px 12px}.score-info-levels{gap:8px}.section-header h2{font-size:17px}}</style></head><body>
+<header class="site-header"><div class="header-inner">
+<a href="https://themakings.co.kr/" class="logo">THE MAKINGS</a>
+<nav class="header-nav">
+<a href="/seoul/">서울</a><a href="/incheon/">인천</a><a href="/gyeonggi/">경기</a><a href="/busan/">부산</a><a href="/sejong/">세종</a><a href="/gwangju/">광주</a><a href="/ulsan/">울산</a><a href="/gangwon/">강원</a>
+</nav></div></header><div style="text-align:center;margin:20px auto;width:100%;display:flex;justify-content:center;"><div style="width:100%;max-width:960px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="4154182247" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div>
+<div class="breadcrumb"><a href="/">홈</a><span>›</span><a href="/gangwon/">강원</a><span>›</span>원주</div>
+<section class="hero"><h1>강원 원주 고등학교 학원 리스트</h1>
+<p class="hero-sub">학교를 선택하면 해당 학교 내신 전문 학원 정보를 확인할 수 있습니다.</p>
+<div class="hero-stats"><div class="stat-chip">🏫 18개 학교</div><div class="stat-chip">📚 458개 학원</div></div></section>
+<div class="list-section"><div class="card-grid"><a href="./%EC%9B%90%EC%A3%BC%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 원주고등학교</h3><p>183개 학원</p></a><a href="./%EC%9B%90%EC%A3%BC%EC%97%AC%EC%9E%90%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 원주여자고등학교</h3><p>5개 학원</p></a><a href="./%EC%9B%90%EC%A3%BC%EA%B8%88%EC%9C%B5%ED%9A%8C%EA%B3%84%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 원주금융회계고등학교</h3><p>0개 학원</p></a><a href="./%EC%9B%90%EC%A3%BC%EC%82%BC%EC%9C%A1%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 원주삼육고등학교</h3><p>4개 학원</p></a><a href="./%ED%95%9C%EA%B5%ADYMCA%EC%9B%90%EC%A3%BC%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 한국YMCA원주고등학교</h3><p>0개 학원</p></a><a href="./%EC%9B%90%EC%A3%BC%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90%EB%B6%80%EC%84%A4%EB%B0%A9%EC%86%A1%ED%86%B5%EC%8B%A0%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 원주고등학교부설방송통신고등학교</h3><p>0개 학원</p></a><a href="./%EC%98%81%EC%84%9C%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 영서고등학교</h3><p>12개 학원</p></a><a href="./%EC%B9%98%EC%95%85%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 치악고등학교</h3><p>25개 학원</p></a><a href="./%EB%AF%B8%EB%9E%98%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 미래고등학교</h3><p>129개 학원</p></a><a href="./%EB%8C%80%EC%84%B1%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 대성고등학교</h3><p>50개 학원</p></a><a href="./%EC%9C%A1%EB%AF%BC%EA%B4%80%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 육민관고등학교</h3><p>16개 학원</p></a><a href="./%EC%A7%84%EA%B4%91%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 진광고등학교</h3><p>7개 학원</p></a><a href="./%EB%B6%81%EC%9B%90%EC%97%AC%EC%9E%90%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 북원여자고등학교</h3><p>4개 학원</p></a><a href="./%EA%B0%95%EC%9B%90%EA%B3%BC%ED%95%99%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 강원과학고등학교</h3><p>1개 학원</p></a><a href="./%EC%83%81%EC%A7%80%EC%97%AC%EC%9E%90%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 상지여자고등학교</h3><p>5개 학원</p></a><a href="./%ED%95%9C%EA%B5%AD%EC%9D%98%EB%A3%8C%EB%A7%88%EC%9D%B4%EC%8A%A4%ED%84%B0%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 한국의료마이스터고등학교</h3><p>0개 학원</p></a><a href="./%EC%84%AC%EA%B0%95%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 섬강고등학교</h3><p>12개 학원</p></a><a href="./%EB%AC%B8%EB%A7%89%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90.html" class="nav-card"><h3>📍 문막고등학교</h3><p>5개 학원</p></a></div></div>
+<div style="text-align:center;margin:32px auto 0;width:100%;display:flex;justify-content:center;"><div style="width:100%;max-width:960px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="7446830466" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div><footer class="site-footer">
+<p class="footer-cta">학원 등록 및 광고 문의: <a href="mailto:themakings.official01@gmail.com">themakings.official01@gmail.com</a></p>
+<p class="footer-copy">© 2026 THE MAKINGS · <a href="https://themakings.co.kr">메인으로 돌아가기</a></p>
+</footer></body></html>
