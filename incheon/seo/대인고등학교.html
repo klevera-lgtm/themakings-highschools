@@ -1,0 +1,495 @@
+<!DOCTYPE html><html lang="ko"><head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="PRWEzwLvpx79mTySGb6sEvFHtoNITEBuCbyXQbhCDDA" />
+<meta name="naver-site-verification" content="2807a8fa5fd31106baffa35c7726e7fa0133b97a" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>대인고등학교 근처 학원 추천 | 인천 서구 | THE MAKINGS</title>
+<meta name="description" content="대인고등학교 학생들이 많이 다니는 학원 리스트. 53개 학원, 전문도 기반 정렬.">
+<link rel="canonical" href="https://highschool.themakings.co.kr/incheon/seo/대인고등학교.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#f8f9fb;--card-bg:#fff;--text:#1a1a2e;--text-sub:#6b7280;--pink:#e84393;--accent:#2563eb;--border:#e5e7eb;--radius:12px;--shadow-lg:0 4px 20px rgba(0,0,0,.08)}
+body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+.site-header{background:#fff;border-bottom:1px solid var(--border);padding:16px 0;position:sticky;top:0;z-index:100}
+.header-inner{max-width:960px;margin:0 auto;padding:0 20px;display:flex;flex-direction:column;align-items:center;gap:12px}
+.logo{font-weight:800;font-size:28px;color:var(--pink);text-decoration:none;letter-spacing:-.5px}
+.header-nav a{font-size:14px;color:var(--text-sub);text-decoration:none;margin:0 10px;font-weight:500}
+.header-nav a:hover{color:var(--pink)}
+.breadcrumb{max-width:960px;margin:0 auto;padding:16px 20px 0;font-size:16px;color:var(--pink);font-weight:600}
+.breadcrumb a{color:var(--pink);text-decoration:none}.breadcrumb a:hover{text-decoration:underline}.breadcrumb span{margin:0 6px}
+.hero{max-width:960px;margin:0 auto;padding:32px 20px 16px;text-align:center}
+.hero h1{font-size:28px;font-weight:800;letter-spacing:-.5px;margin-bottom:8px;line-height:1.3}
+.hero-sub{font-size:15px;color:var(--text-sub);margin-bottom:20px}
+.hero-stats{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.stat-chip{background:var(--card-bg);border:1px solid var(--border);border-radius:100px;padding:8px 16px;font-size:13px;font-weight:600}
+/* 전문도 안내 박스 */
+.score-info-box{max-width:960px;margin:0 auto 8px;padding:0 20px}
+.score-info-inner{background:#fdf2f8;border:1px solid #f9a8d4;border-left:4px solid var(--pink);border-radius:var(--radius);padding:16px 20px}
+.score-info-title{font-size:14px;font-weight:700;color:#be185d;margin-bottom:6px}
+.score-info-desc{font-size:13px;color:#9d174d;line-height:1.6;margin-bottom:10px}
+.score-info-levels{display:flex;gap:16px;flex-wrap:wrap}
+.score-level{font-size:12px;font-weight:600;padding:4px 10px;border-radius:100px}
+.score-level.green{background:#f0fdf4;color:#15803d}
+.score-level.orange{background:#fff7ed;color:#c2410c}
+.score-level.gray{background:#f9fafb;color:#6b7280;border:1px solid #e5e7eb}
+/* 필터 */
+.filter-bar{max-width:960px;margin:0 auto;padding:8px 20px 20px;display:flex;gap:8px;flex-wrap:wrap}
+.filter-btn{background:var(--card-bg);border:1px solid var(--border);border-radius:100px;padding:8px 14px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;font-family:inherit;color:var(--text-sub);display:flex;align-items:center;gap:4px}
+.filter-btn:hover{border-color:var(--pink);color:var(--pink)}
+.filter-btn.active{background:var(--pink);color:#fff;border-color:var(--pink)}
+.filter-btn .count{font-size:11px;opacity:.7}
+/* 섹션 */
+.subject-section{max-width:960px;margin:0 auto;padding:0 20px}
+.section-header{display:flex;align-items:center;justify-content:space-between;padding:24px 0 8px;border-bottom:2px solid var(--text);margin-bottom:12px}
+.section-header h2{font-size:20px;font-weight:800}.section-count{font-size:13px;color:var(--text-sub);font-weight:500}
+.subject-section.hidden{display:none}
+/* 학원 카드 */
+.academy-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:box-shadow .2s,border-color .2s;margin-bottom:12px}
+.academy-card:hover{box-shadow:var(--shadow-lg);border-color:#d1d5db}
+.academy-card.hidden{display:none}
+.card-title-row{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:8px}
+.card-title-row h3{font-size:17px;font-weight:700;line-height:1.3}
+.score-badge{display:flex;flex-direction:column;align-items:center;padding:6px 14px;border-radius:10px;flex-shrink:0;min-width:72px}
+.score-label{font-size:10px;font-weight:600;opacity:.8}
+.score-number{font-size:22px;font-weight:800;line-height:1.1;letter-spacing:-1px}
+.card-meta{font-size:12px;margin-bottom:8px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.conc-badge{font-size:11px;font-weight:600;padding:3px 8px;border-radius:6px}
+.mention-text{font-size:12px;color:var(--text-sub)}
+.card-body{font-size:14px}.card-address{color:var(--text-sub);margin-bottom:4px}
+.card-phone{margin-bottom:4px}.card-phone a{color:var(--accent);text-decoration:none;font-weight:500}
+.card-links{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.link-btn{font-size:13px;padding:6px 12px;border-radius:8px;text-decoration:none;font-weight:500;transition:opacity .15s}
+.link-btn:hover{opacity:.8}.link-btn.kakao{background:#fee500;color:#3c1e1e}.link-btn.blog{background:#e8f5e9;color:#2e7d32}
+/* 더보기 버튼 */
+.more-btn-wrap{max-width:960px;margin:0 auto;padding:0 20px 16px}
+.more-btn{width:100%;padding:12px;background:var(--card-bg);border:1px dashed var(--border);border-radius:var(--radius);font-size:13px;color:var(--text-sub);cursor:pointer;font-family:inherit;font-weight:500;transition:all .15s}
+.more-btn:hover{border-color:var(--pink);color:var(--pink)}
+/* 학교/구 목록 */
+.school-list{max-width:960px;margin:0 auto;padding:0 20px 40px}
+.school-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.school-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-decoration:none;color:var(--text);transition:box-shadow .2s}
+.school-card:hover{box-shadow:var(--shadow-lg)}.school-card h3{font-size:16px;font-weight:700;margin-bottom:4px}.school-card p{font-size:13px;color:var(--text-sub)}
+.district-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.district-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-decoration:none;color:var(--text);transition:box-shadow .2s}
+.district-card:hover{box-shadow:var(--shadow-lg)}.district-card h3{font-size:16px;font-weight:700;margin-bottom:4px}.district-card p{font-size:13px;color:var(--text-sub)}
+/* 푸터 */
+.site-footer{background:#fff;border-top:1px solid var(--border);padding:40px 20px;text-align:center}
+.footer-cta{font-size:15px;font-weight:600;margin-bottom:8px}.footer-cta a{color:var(--pink);text-decoration:none}
+.footer-copy{font-size:13px;color:var(--text-sub);margin-top:12px}.footer-copy a{color:var(--pink);text-decoration:none}
+@media(max-width:640px){.hero h1{font-size:22px}.header-nav a{margin:0 6px}.stat-chip{font-size:12px;padding:6px 12px}.filter-btn{padding:6px 10px;font-size:12px}.card-title-row{flex-direction:column;gap:8px}.score-badge{flex-direction:row;gap:8px;min-width:auto;padding:6px 12px}.score-info-levels{gap:8px}.section-header h2{font-size:17px}}</style></head><body><header class="site-header"><div class="header-inner">
+<a href="https://themakings.co.kr/" class="logo">THE MAKINGS</a>
+<nav class="header-nav">
+<a href="/seoul/">서울</a><a href="/incheon/">인천</a><a href="/gyeonggi/">경기</a><a href="/busan/">부산</a><a href="/sejong/">세종</a>
+</nav></div></header><div style="text-align:center;margin:20px auto;width:100%;display:flex;justify-content:center;"><div style="width:100%;max-width:960px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="4154182247" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div><div class="breadcrumb"><a href="/">홈</a><span>›</span><a href="/incheon/">인천</a><span>›</span><a href="/incheon/seo/">서구</a><span>›</span>대인고등학교</div><section class="hero"><h1>대인고등학교<br><span style="font-size:20px;color:var(--text-sub)">근처 학원 리스트</span></h1>
+<p class="hero-sub">인천 서구 · 고등학교</p>
+<div class="hero-stats"><div class="stat-chip">📚 53개 학원</div><div class="stat-chip">🏫 전문도 기반 정렬</div></div></section><div class="score-info-box"><div class="score-info-inner">
+<div class="score-info-title">📊 전문도란?</div>
+<div class="score-info-desc">이 학원이 블로그에서 우리 학교를 얼마나 집중적으로 언급했는지 보여주는 지표예요.<br>언급 횟수가 많고 집중도가 높을수록 우리 학교 학생들이 즐겨 찾는 학원일 가능성이 높습니다.</div>
+<div class="score-info-levels">
+<span class="score-level green">🟢 집중도 70%+ 전문</span>
+<span class="score-level orange">🟠 40~69% 선호</span>
+<span class="score-level gray">⚪ 40% 미만 지역</span>
+</div></div></div><div class="filter-bar"><button class="filter-btn active" onclick="filterSubject('all',this)">전체 <span class="count">53</span></button><button class="filter-btn" onclick="filterSubject('국어',this)">국어 <span class="count">10</span></button><button class="filter-btn" onclick="filterSubject('영어',this)">영어 <span class="count">6</span></button><button class="filter-btn" onclick="filterSubject('수학',this)">수학 <span class="count">13</span></button><button class="filter-btn" onclick="filterSubject('과학',this)">과학 <span class="count">1</span></button><button class="filter-btn" onclick="filterSubject('논술',this)">논술 <span class="count">1</span></button><button class="filter-btn" onclick="filterSubject('종합/입시',this)">종합/입시 <span class="count">22</span></button></div><div class="subject-section" data-subject="국어">
+<div class="section-header"><h2>국어</h2><span class="section-count">10개 학원</span></div>
+<div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>이재식국어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">99</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">17% (지역)</span><span class="mention-text">블로그 62회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라라임로 71 , 805호, 806호 (청라동, 진영메디피아)</p><p class="card-phone">📞 <a href="tel:032-715-7872">032-715-7872</a></p><div class="card-links"><a href="http://place.map.kakao.com/197475819" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/ljs3222213/223030526081" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>청라이재식국어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">76</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">17% (지역)</span><span class="mention-text">블로그 34회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라라임로 71 , 801호 (청라동, 진영메디피아)</p><p class="card-phone">📞 <a href="tel:032-715-7872">032-715-7872</a></p><div class="card-links"><a href="http://place.map.kakao.com/197475819" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/ljs3222213/224027186018" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>빨강국어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">66</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 7회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라커낼로288번길 10 , 606호(청라동, 더스페이스타워)</p><p class="card-phone">📞 <a href="tel:032-564-9554">032-564-9554</a></p><div class="card-links"><a href="http://place.map.kakao.com/1828645622" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/rededu_cheongna/224054383127" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>1교시국어전문학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">63</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">23% (지역)</span><span class="mention-text">블로그 13회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 보석로 41 , 401호 (청라동, 청명프라자2)</p><p class="card-phone">📞 <a href="tel:032-563-7765">032-563-7765</a></p><div class="card-links"><a href="http://place.map.kakao.com/1044253704" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/namsora/223620058131" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>국성국어전문학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">63</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">35% (지역)</span><span class="mention-text">블로그 8회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라에메랄드로102번길 8 , 508호,603호,704-1호,803호,806호 (청라동, 우성메디피아)</p><div class="card-links"><a href="https://blog.naver.com/econ555/224208049207" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>꿈비국어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">54</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">33% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 완정로 39 , 3층 일부 (마전동, 정우프라자)</p><p class="card-phone">📞 <a href="tel:032-569-7667">032-569-7667</a></p><div class="card-links"><a href="http://place.map.kakao.com/1762966216" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/ggumbii/223103921980" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>청라정상어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">51</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">13% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 중봉대로 588 , 408호, 703호, 706호, 707호, 708호 (청라동, 청라센트럴프라자)</p><p class="card-phone">📞 <a href="tel:032-562-2400">032-562-2400</a></p><div class="card-links"><a href="http://place.map.kakao.com/14809307" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/jlscheongna/224293638225" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this, '국어')">▼ 1회 언급 학원 3개 더 보기</button></div><div class="academy-card hidden" data-subject="국어" data-once="1">
+<div class="card-title-row"><h3>일이관지국어학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span><span class="score-number">54</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 중봉대로 588 , 705호 (청라동, 청라센트럴프라자)</p><p class="card-phone">📞 <a href="tel:010-2304-3834">010-2304-3834</a></p><div class="card-links"><a href="http://place.map.kakao.com/1813677458" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/il2gwanzi-/223814318612" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="국어" data-once="1">
+<div class="card-title-row"><h3>강한국어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">51</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">25% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 원당대로 676 , 701호 (당하동, 제일아이조움)</p><p class="card-phone">📞 <a href="tel:032-567-9595">032-567-9595</a></p><div class="card-links"><a href="http://place.map.kakao.com/259073522" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/ganghan007-/223370994239" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="국어" data-once="1">
+<div class="card-title-row"><h3>원국어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">50</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">17% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 원당대로 850 , 502호 일부(당하동, 프런치타워)</p><p class="card-phone">📞 <a href="tel:032-567-7838">032-567-7838</a></p><div class="card-links"><a href="http://place.map.kakao.com/1081658000" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/ovo9___/223210191351" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div></div><div class="subject-section" data-subject="영어">
+<div class="section-header"><h2>영어</h2><span class="section-count">6개 학원</span></div>
+<div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>민홍준영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">99</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">27% (지역)</span><span class="mention-text">블로그 78회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 중봉대로586번길 15 , 605호, 606호(청라동, 청연프라자)</p><p class="card-phone">📞 <a href="tel:032-710-5865">032-710-5865</a></p><div class="card-links"><a href="http://place.map.kakao.com/304559037" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/mhjedu/224183607583" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>문영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">63</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">18% (지역)</span><span class="mention-text">블로그 33회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 장고개로337번길 18-3 , 201호 (가좌동, 영프라자)</p><p class="card-phone">📞 <a href="tel:032-572-8807">032-572-8807</a></p><div class="card-links"><a href="http://place.map.kakao.com/1415336079" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/jooenglish/222225368681" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>ATOZ영어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">52</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라에메랄드로 78 , 307호 (청라동, 딜라이트타워)</p><p class="card-phone">📞 <a href="tel:032-568-1492">032-568-1492</a></p><div class="card-links"><a href="http://place.map.kakao.com/1124604273" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/cathy5401/223805805502" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>더퍼스트영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">51</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">38% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라루비로 93 , 704호 (청라동,루비타워)</p><p class="card-phone">📞 <a href="tel:032-566-7434">032-566-7434</a></p><div class="card-links"><a href="http://place.map.kakao.com/1093718942" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/thefirstenglishlkt/222138859924" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this, '영어')">▼ 1회 언급 학원 2개 더 보기</button></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>더쎈영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">50</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">33% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 중봉대로 588 , 403로 (청라동, 청라센트럴프라자)</p><p class="card-phone">📞 <a href="tel:032-568-0582">032-568-0582</a></p><div class="card-links"><a href="http://place.map.kakao.com/230933958" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/thessenedu/223600149705" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>지니어스영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">50</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">25% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 염곡로 468 , 803호 804호 (가정동, 드림타워)</p><p class="card-phone">📞 <a href="tel:032-279-0002">032-279-0002</a></p><div class="card-links"><a href="http://place.map.kakao.com/1292043248" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/jiny_us_english/224169233852" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div><div style="text-align:center;margin:28px auto;width:100%;display:flex;justify-content:center;"><div style="width:100%;max-width:960px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="3283693943" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div></div></div></div><div class="subject-section" data-subject="수학">
+<div class="section-header"><h2>수학</h2><span class="section-count">13개 학원</span></div>
+<div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>무결수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">99</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">24% (지역)</span><span class="mention-text">블로그 29회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 중봉대로586번길 15 , 501호 (청라동, 청연프라자)</p><p class="card-phone">📞 <a href="tel:032-710-5865">032-710-5865</a></p><div class="card-links"><a href="http://place.map.kakao.com/1155723450" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/mkedu0501/223223429332" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>키워드수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">83</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">37% (지역)</span><span class="mention-text">블로그 13회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 새오개로111번안길 27 , 201호(신현동, 해창빌딩)</p><p class="card-phone">📞 <a href="tel:010-7388-7082">010-7388-7082</a></p><div class="card-links"><a href="http://place.map.kakao.com/423220107" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/keyword_math/224178929841" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>다움수학학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">66</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">47% (선호)</span><span class="mention-text">블로그 5회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라라임로 71 , 503호(청라동, 진영메디피아)</p><p class="card-phone">📞 <a href="tel:032-267-8123">032-267-8123</a></p><div class="card-links"><a href="http://place.map.kakao.com/1937628302" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/daum_math/223645451562" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>고수학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">62</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">44% (선호)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 동화시로 106 , 201호, 202호(불로동, 현해타워1)</p><div class="card-links"><a href="https://blog.naver.com/smartvoca/221536876680" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>청라로드맵수학학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">62</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">44% (선호)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라에메랄드로102번길 8 , 707호,708호 (청라동, 우성메디피아)</p><p class="card-phone">📞 <a href="tel:032-567-6668">032-567-6668</a></p><div class="card-links"><a href="http://place.map.kakao.com/1220601439" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/roadmap81/222689595220" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>허갑재수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">62</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">29% (지역)</span><span class="mention-text">블로그 6회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라커낼로 264 , 805호 (청라동, 청라중앙프라자)</p><p class="card-phone">📞 <a href="tel:010-5540-0311">010-5540-0311</a></p><div class="card-links"><a href="http://place.map.kakao.com/394401334" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/wuwnrl21/223707451265" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>광수학학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">59</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">67% (선호)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 승학로 558 , 401호 (검암동, 동남빌딩)</p><p class="card-phone">📞 <a href="tel:032-565-0912">032-565-0912</a></p><div class="card-links"><a href="http://place.map.kakao.com/105833880" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/happylight011/223535455612" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>올인수학전문학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">59</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">67% (선호)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 승학로 515 , 204호 205호(검암동, 대림프라자)</p><p class="card-phone">📞 <a href="tel:032-567-1666">032-567-1666</a></p><div class="card-links"><a href="http://place.map.kakao.com/159366395" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/allin2025/223647125128" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>라이튼수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">56</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">18% (지역)</span><span class="mention-text">블로그 5회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라에메랄드로102번길 8 , 704호(청라동, 우성메디피아)</p><div class="card-links"><a href="http://place.map.kakao.com/1380055198" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/crlightenmath/224153028748" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>루원퍼스트수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">23% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 가정로 437 , 301동 B201호,B202호 (가정동,루원시티 SK Leaders' VIEW)</p><p class="card-phone">📞 <a href="tel:010-6888-9883">010-6888-9883</a></p><div class="card-links"><a href="http://place.map.kakao.com/881604049" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/luonefirstmath/223925524584" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this, '수학')">▼ 1회 언급 학원 3개 더 보기</button></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>이해수학학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라커낼로 280 , 403호 (청라동, 청라골든프라자)</p><p class="card-phone">📞 <a href="tel:032-3275-4798">032-3275-4798</a></p><div class="card-links"><a href="http://place.map.kakao.com/254861238" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/leehaemath-/223993078029" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>루원로드맵수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">52</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">33% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 염곡로 468 , 604호 (가정동, 드림타워)</p><p class="card-phone">📞 <a href="tel:032-710-7473">032-710-7473</a></p><div class="card-links"><a href="http://place.map.kakao.com/1994197323" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/roadmap7473/223665973090" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>청라호크마수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">52</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">33% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 크리스탈로74번길 31 , 704호(청라동, 월드프라자1)</p><div class="card-links"><a href="https://blog.naver.com/jooheet/223905925284" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div></div><div class="subject-section" data-subject="과학">
+<div class="section-header"><h2>과학</h2><span class="section-count">1개 학원</span></div>
+<div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this, '과학')">▼ 1회 언급 학원 1개 더 보기</button></div><div class="academy-card hidden" data-subject="과학" data-once="1">
+<div class="card-title-row"><h3>투스카이수학과학학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">99</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">46% (선호)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라라임로 71 , 902호 (청라동, 진영메디피아)</p><p class="card-phone">📞 <a href="tel:032-561-4416">032-561-4416</a></p><div class="card-links"><a href="http://place.map.kakao.com/1648434311" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/goutte/224116622028" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div></div><div class="subject-section" data-subject="논술">
+<div class="section-header"><h2>논술</h2><span class="section-count">1개 학원</span></div>
+<div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this, '논술')">▼ 1회 언급 학원 1개 더 보기</button></div><div class="academy-card hidden" data-subject="논술" data-once="1">
+<div class="card-title-row"><h3>더울림국어논술전문학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">99</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">33% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라커낼로319번길 3-19 , 1층전체(청라동)</p><div class="card-links"><a href="https://blog.naver.com/theshar7494/224110796278" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div></div><div class="subject-section" data-subject="종합/입시">
+<div class="section-header"><h2>종합/입시</h2><span class="section-count">22개 학원</span></div>
+<div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>하이클래스학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">99</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">19% (지역)</span><span class="mention-text">블로그 43회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라라임로 65 , 710호 (청라동, 라임타워)</p><p class="card-phone">📞 <a href="tel:032-225-0535">032-225-0535</a></p><div class="card-links"><a href="http://place.map.kakao.com/317582700" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/netmouse77/224182804827" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>러닝메이트학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">74</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">29% (지역)</span><span class="mention-text">블로그 14회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 중봉대로 588 , 808호 809호 (청라동, 청라센트럴프라자)</p><p class="card-phone">📞 <a href="tel:032-568-8808">032-568-8808</a></p><div class="card-links"><a href="http://place.map.kakao.com/621831250" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/running_mate_/224185019953" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>강한학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">71</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">61% (선호)</span><span class="mention-text">블로그 6회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 이음5로 30 , 405호, 406호, 407호 (원당동, 연세프라자9 1동)</p><p class="card-phone">📞 <a href="tel:032-562-5336">032-562-5336</a></p><div class="card-links"><a href="http://place.map.kakao.com/1610388601" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/netmouse77/223832712235" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>아라학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">69</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">55% (선호)</span><span class="mention-text">블로그 6회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 검암로19번길 10 , 3층(검암동)</p><p class="card-phone">📞 <a href="tel:032-568-0520">032-568-0520</a></p><div class="card-links"><a href="http://place.map.kakao.com/191376615" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/aramathenglish/223670820849" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>청라하이클래스학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">67</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">16% (지역)</span><span class="mention-text">블로그 18회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라라임로 65 , 707호, 708호  (청라동, 라임타워)</p><p class="card-phone">📞 <a href="tel:032-225-0535">032-225-0535</a></p><div class="card-links"><a href="http://place.map.kakao.com/317582700" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/netmouse77/224182804827" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>핵심학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">65</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">37% (지역)</span><span class="mention-text">블로그 7회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 탁옥로 19 , 2층,3층 (심곡동,정민상가)</p><p class="card-phone">📞 <a href="tel:032-567-5300">032-567-5300</a></p><div class="card-links"><a href="http://place.map.kakao.com/692905358" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/answldus03/224292305687" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>엠와이씨학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">58</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">28% (지역)</span><span class="mention-text">블로그 5회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 가정로 437 103~104호(가정동,루원시티 SK Leaders' VIEW 301동)</p><div class="card-links"><a href="https://blog.naver.com/myc_academy/223629728329" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>와와학습코칭청라학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">57</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">43% (선호)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 중봉대로 588 , 609호 (청라동, 청라센트럴프라자)</p><p class="card-phone">📞 <a href="tel:032-508-7160">032-508-7160</a></p><div class="card-links"><a href="http://place.map.kakao.com/1872117673" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/beery2n/224220624733" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>마이클래스학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">57</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">40% (선호)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 가정로 437 , B113호 (가정동, 루원시티 SK Leaders' VIEW 301동(상가동))</p><p class="card-phone">📞 <a href="tel:032-575-2022">032-575-2022</a></p><div class="card-links"><a href="http://place.map.kakao.com/1850942286" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/edu_myclass/224107703939" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>투스카이학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">56</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">29% (지역)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라라임로 71 , 904호(청라동, 진영메디피아)</p><p class="card-phone">📞 <a href="tel:032-565-5695">032-565-5695</a></p><div class="card-links"><a href="http://place.map.kakao.com/1648434311" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/iknow_science/223876563149" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>대성학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">55</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">48% (선호)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 서달로 159 , 402호 (석남동)</p><p class="card-phone">📞 <a href="tel:032-577-8209">032-577-8209</a></p><div class="card-links"><a href="http://place.map.kakao.com/558548487" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/trashnn/223880902707" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>완승학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">54</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">27% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라라임로 71 , 701호 (청라동, 진영메디피아)</p><p class="card-phone">📞 <a href="tel:032-575-2220">032-575-2220</a></p><div class="card-links"><a href="http://place.map.kakao.com/851521572" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/wans2220/224082643182" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>키제스트학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">52</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">25% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 새오개로111번안길 21 , 302호 (신현동, 대성프라자)</p><p class="card-phone">📞 <a href="tel:032-583-5522">032-583-5522</a></p><div class="card-links"><a href="http://place.map.kakao.com/1223484826" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/keyzest1/223610118897" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>우리학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">52</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">13% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 새오개로54번길 20 , 2층 (신현동)</p><p class="card-phone">📞 <a href="tel:032-582-3191">032-582-3191</a></p><div class="card-links"><a href="http://place.map.kakao.com/16008507" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/happylight011/223535455612" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this, '종합/입시')">▼ 1회 언급 학원 8개 더 보기</button></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>B2빅뱅학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span><span class="score-number">55</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 승학로 482 , 402호, 403호 (검암동, 네오프라자)</p><p class="card-phone">📞 <a href="tel:032-563-4145">032-563-4145</a></p><div class="card-links"><a href="http://place.map.kakao.com/1393975072" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/thebeyond_eng/223724687981" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>브랜트영수전문학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">52</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 심곡로56번길 2 , 3층일부(301호) (심곡동, 삼원빌딩)</p><p class="card-phone">📞 <a href="tel:032-567-3093">032-567-3093</a></p><div class="card-links"><a href="http://place.map.kakao.com/1396822495" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/nahee091256/222756343770" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>엠베스트SE연세학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">52</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 가정로 411 , 2층 (신현동)</p><div class="card-links"><a href="https://blog.naver.com/mbestelim/223986701016" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>검암학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">52</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">40% (선호)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 승학로 482 , 401호 (검암동,네오프라자)</p><p class="card-phone">📞 <a href="tel:032-565-8666">032-565-8666</a></p><div class="card-links"><a href="http://place.map.kakao.com/10750474" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/twinkleeun/223288321707" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>세담학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">51</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">31% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 이음대로 384 , 508호, 509호 (원당동, 서영아너시티플러스)</p><p class="card-phone">📞 <a href="tel:032-710-6944">032-710-6944</a></p><div class="card-links"><a href="http://place.map.kakao.com/1607930219" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/cnc11academy/224108489350" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>이도학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">51</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">29% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 염곡로 468 , 501호 (가정동, 드림타워)</p><p class="card-phone">📞 <a href="tel:010-8480-1573">010-8480-1573</a></p><div class="card-links"><a href="http://place.map.kakao.com/137336089" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/idoschool/223807972191" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>태풍학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">51</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">29% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 청라라임로 71 , 509호 (청라동, 진영메디피아)</p><p class="card-phone">📞 <a href="tel:032-565-3574">032-565-3574</a></p><div class="card-links"><a href="http://place.map.kakao.com/604309618" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/typoon3574/223962517621" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>더배움보습학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">51</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 인천광역시 서구 승학로 488 , 3층 일부 (검암동)</p><div class="card-links"><a href="https://blog.naver.com/twinkleeun/224137571057" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div></div><div style="text-align:center;margin:32px auto 0;width:100%;display:flex;justify-content:center;"><div style="width:100%;max-width:960px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="7446830466" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div><footer class="site-footer">
+<p class="footer-cta">학원 등록 및 광고 문의: <a href="mailto:themakings.official01@gmail.com">themakings.official01@gmail.com</a></p>
+<p class="footer-copy">© 2026 THE MAKINGS · <a href="https://themakings.co.kr">메인으로 돌아가기</a></p>
+</footer><script>
+function filterSubject(subj, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.subject-section').forEach(sec => {
+        sec.classList.toggle('hidden', subj !== 'all' && sec.dataset.subject !== subj);
+    });
+}
+function toggleMore(btn, subj) {
+    const cards = document.querySelectorAll(`.academy-card[data-subject="${subj}"][data-once="1"]`);
+    const isHidden = cards[0] && cards[0].classList.contains('hidden');
+    cards.forEach(c => c.classList.toggle('hidden', !isHidden));
+    btn.textContent = isHidden
+        ? '▲ 1회 언급 학원 접기'
+        : `▼ 1회 언급 학원 ${cards.length}개 더 보기`;
+}
+</script></body></html>
