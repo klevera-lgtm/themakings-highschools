@@ -1,0 +1,558 @@
+<!DOCTYPE html><html lang="ko"><head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="PRWEzwLvpx79mTySGb6sEvFHtoNITEBuCbyXQbhCDDA" />
+<meta name="naver-site-verification" content="2807a8fa5fd31106baffa35c7726e7fa0133b97a" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>달성고등학교 근처 학원 추천 | 대구 달서구 | THE MAKINGS</title>
+<meta name="description" content="달성고등학교 학생들이 많이 다니는 학원 리스트. 62개 학원, 전문도 기반 정렬.">
+<link rel="canonical" href="https://highschool.themakings.co.kr/daegu/dalseo/달성고등학교.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#f8f9fb;--card-bg:#fff;--text:#1a1a2e;--text-sub:#6b7280;--pink:#e84393;--accent:#2563eb;--border:#e5e7eb;--radius:12px;--shadow-lg:0 4px 20px rgba(0,0,0,.08)}
+body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+.site-header{background:#fff;border-bottom:1px solid var(--border);padding:16px 0;position:sticky;top:0;z-index:100}
+.header-inner{max-width:960px;margin:0 auto;padding:0 20px;display:flex;flex-direction:column;align-items:center;gap:12px}
+.logo{font-weight:800;font-size:28px;color:var(--pink);text-decoration:none;letter-spacing:-.5px}
+.header-nav a{font-size:14px;color:var(--text-sub);text-decoration:none;margin:0 10px;font-weight:500}
+.header-nav a:hover{color:var(--pink)}
+.breadcrumb{max-width:960px;margin:0 auto;padding:16px 20px 0;font-size:16px;color:var(--pink);font-weight:600}
+.breadcrumb a{color:var(--pink);text-decoration:none}.breadcrumb a:hover{text-decoration:underline}.breadcrumb span{margin:0 6px}
+.hero{max-width:960px;margin:0 auto;padding:32px 20px 16px;text-align:center}
+.hero h1{font-size:28px;font-weight:800;letter-spacing:-.5px;margin-bottom:8px;line-height:1.3}
+.hero-sub{font-size:15px;color:var(--text-sub);margin-bottom:20px}
+.hero-stats{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.stat-chip{background:var(--card-bg);border:1px solid var(--border);border-radius:100px;padding:8px 16px;font-size:13px;font-weight:600}
+/* 전문도 안내 박스 */
+.score-info-box{max-width:960px;margin:0 auto 8px;padding:0 20px}
+.score-info-inner{background:#fdf2f8;border:1px solid #f9a8d4;border-left:4px solid var(--pink);border-radius:var(--radius);padding:16px 20px}
+.score-info-title{font-size:14px;font-weight:700;color:#be185d;margin-bottom:6px}
+.score-info-desc{font-size:13px;color:#9d174d;line-height:1.6;margin-bottom:10px}
+.score-info-levels{display:flex;gap:16px;flex-wrap:wrap}
+.score-level{font-size:12px;font-weight:600;padding:4px 10px;border-radius:100px}
+.score-level.green{background:#f0fdf4;color:#15803d}
+.score-level.orange{background:#fff7ed;color:#c2410c}
+.score-level.gray{background:#f9fafb;color:#6b7280;border:1px solid #e5e7eb}
+/* 필터 */
+.filter-bar{max-width:960px;margin:0 auto;padding:8px 20px 20px;display:flex;gap:8px;flex-wrap:wrap}
+.filter-btn{background:var(--card-bg);border:1px solid var(--border);border-radius:100px;padding:8px 14px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;font-family:inherit;color:var(--text-sub);display:flex;align-items:center;gap:4px}
+.filter-btn:hover{border-color:var(--pink);color:var(--pink)}
+.filter-btn.active{background:var(--pink);color:#fff;border-color:var(--pink)}
+.filter-btn .count{font-size:11px;opacity:.7}
+/* 섹션 */
+.subject-section{max-width:960px;margin:0 auto;padding:0 20px}
+.section-header{display:flex;align-items:center;justify-content:space-between;padding:24px 0 8px;border-bottom:2px solid var(--text);margin-bottom:12px}
+.section-header h2{font-size:20px;font-weight:800}.section-count{font-size:13px;color:var(--text-sub);font-weight:500}
+.subject-section.hidden{display:none}
+/* 학원 카드 */
+.academy-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:box-shadow .2s,border-color .2s;margin-bottom:12px}
+.academy-card:hover{box-shadow:var(--shadow-lg);border-color:#d1d5db}
+.academy-card.hidden{display:none}
+.card-title-row{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:8px}
+.card-title-row h3{font-size:17px;font-weight:700;line-height:1.3}
+.score-badge{display:flex;flex-direction:column;align-items:center;padding:6px 14px;border-radius:10px;flex-shrink:0;min-width:72px}
+.score-label{font-size:10px;font-weight:600;opacity:.8}
+.score-number{font-size:22px;font-weight:800;line-height:1.1;letter-spacing:-1px}
+.card-meta{font-size:12px;margin-bottom:8px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.conc-badge{font-size:11px;font-weight:600;padding:3px 8px;border-radius:6px}
+.mention-text{font-size:12px;color:var(--text-sub)}
+.card-body{font-size:14px}.card-address{color:var(--text-sub);margin-bottom:4px}
+.card-phone{margin-bottom:4px}.card-phone a{color:var(--accent);text-decoration:none;font-weight:500}
+.card-links{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.link-btn{font-size:13px;padding:6px 12px;border-radius:8px;text-decoration:none;font-weight:500;transition:opacity .15s}
+.link-btn:hover{opacity:.8}.link-btn.kakao{background:#fee500;color:#3c1e1e}.link-btn.blog{background:#e8f5e9;color:#2e7d32}
+/* 더보기 버튼 */
+.more-btn-wrap{max-width:960px;margin:0 auto;padding:0 20px 16px}
+.more-btn{width:100%;padding:12px;background:var(--card-bg);border:1px dashed var(--border);border-radius:var(--radius);font-size:13px;color:var(--text-sub);cursor:pointer;font-family:inherit;font-weight:500;transition:all .15s}
+.more-btn:hover{border-color:var(--pink);color:var(--pink)}
+/* 학교/구 목록 */
+.school-list{max-width:960px;margin:0 auto;padding:0 20px 40px}
+.school-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.school-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-decoration:none;color:var(--text);transition:box-shadow .2s}
+.school-card:hover{box-shadow:var(--shadow-lg)}.school-card h3{font-size:16px;font-weight:700;margin-bottom:4px}.school-card p{font-size:13px;color:var(--text-sub)}
+.district-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.district-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-decoration:none;color:var(--text);transition:box-shadow .2s}
+.district-card:hover{box-shadow:var(--shadow-lg)}.district-card h3{font-size:16px;font-weight:700;margin-bottom:4px}.district-card p{font-size:13px;color:var(--text-sub)}
+/* 푸터 */
+.site-footer{background:#fff;border-top:1px solid var(--border);padding:40px 20px;text-align:center}
+.footer-cta{font-size:15px;font-weight:600;margin-bottom:8px}.footer-cta a{color:var(--pink);text-decoration:none}
+.footer-copy{font-size:13px;color:var(--text-sub);margin-top:12px}.footer-copy a{color:var(--pink);text-decoration:none}
+@media(max-width:640px){.hero h1{font-size:22px}.header-nav a{margin:0 6px}.stat-chip{font-size:12px;padding:6px 12px}.filter-btn{padding:6px 10px;font-size:12px}.card-title-row{flex-direction:column;gap:8px}.score-badge{flex-direction:row;gap:8px;min-width:auto;padding:6px 12px}.score-info-levels{gap:8px}.section-header h2{font-size:17px}}</style></head><body><header class="site-header"><div class="header-inner">
+<a href="https://themakings.co.kr/" class="logo">THE MAKINGS</a>
+<nav class="header-nav">
+<a href="/seoul/">서울</a><a href="/incheon/">인천</a><a href="/gyeonggi/">경기</a><a href="/busan/">부산</a><a href="/daegu/">대구</a>
+</nav></div></header><div style="text-align:center;margin:20px auto;width:100%;display:flex;justify-content:center;"><div style="width:100%;max-width:960px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="4154182247" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div><div class="breadcrumb"><a href="/">홈</a><span>›</span><a href="/daegu/">대구</a><span>›</span><a href="/daegu/dalseo/">달서구</a><span>›</span>달성고등학교</div><section class="hero"><h1>달성고등학교<br><span style="font-size:20px;color:var(--text-sub)">근처 학원 리스트</span></h1>
+<p class="hero-sub">대구 달서구 · 고등학교</p>
+<div class="hero-stats"><div class="stat-chip">📚 62개 학원</div><div class="stat-chip">🏫 전문도 기반 정렬</div></div></section><div class="score-info-box"><div class="score-info-inner">
+<div class="score-info-title">📊 전문도란?</div>
+<div class="score-info-desc">이 학원이 블로그에서 우리 학교를 얼마나 집중적으로 언급했는지 보여주는 지표예요.<br>언급 횟수가 많고 집중도가 높을수록 우리 학교 학생들이 즐겨 찾는 학원일 가능성이 높습니다.</div>
+<div class="score-info-levels">
+<span class="score-level green">🟢 집중도 70%+ 전문</span>
+<span class="score-level orange">🟠 40~69% 선호</span>
+<span class="score-level gray">⚪ 40% 미만 지역</span>
+</div></div></div><div class="filter-bar"><button class="filter-btn active" onclick="filterSubject('all',this)">전체 <span class="count">62</span></button><button class="filter-btn" onclick="filterSubject('국어',this)">국어 <span class="count">12</span></button><button class="filter-btn" onclick="filterSubject('영어',this)">영어 <span class="count">24</span></button><button class="filter-btn" onclick="filterSubject('수학',this)">수학 <span class="count">15</span></button><button class="filter-btn" onclick="filterSubject('과학',this)">과학 <span class="count">1</span></button><button class="filter-btn" onclick="filterSubject('논술',this)">논술 <span class="count">1</span></button><button class="filter-btn" onclick="filterSubject('종합/입시',this)">종합/입시 <span class="count">9</span></button></div><div class="subject-section" data-subject="국어">
+<div class="section-header"><h2>국어</h2><span class="section-count">12개 학원</span></div>
+<div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>메이킹어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">99</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">31% (지역)</span><span class="mention-text">블로그 17회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암남로32길 20-4 , 4층일부 (대천동)</p><p class="card-phone">📞 <a href="tel:053-641-0051">053-641-0051</a></p><div class="card-links"><a href="http://place.map.kakao.com/1553949958" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/making_english/222193969765" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>봉국어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">97</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">43% (선호)</span><span class="mention-text">블로그 12회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 28 , 8층 (월성동)</p><p class="card-phone">📞 <a href="tel:053-643-7987">053-643-7987</a></p><div class="card-links"><a href="http://place.map.kakao.com/2025159167" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/khsss4315/222677390230" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>인지니움국어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">76</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">56% (선호)</span><span class="mention-text">블로그 5회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 20 , 801호(월성동)</p><p class="card-phone">📞 <a href="tel:010-9371-1923">010-9371-1923</a></p><div class="card-links"><a href="http://place.map.kakao.com/145563425" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/ingeniumm/223068439923" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>데카어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">62</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">67% (선호)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 14 , 5층일부 (월성동)</p><p class="card-phone">📞 <a href="tel:053-636-0582">053-636-0582</a></p><div class="card-links"><a href="http://place.map.kakao.com/1713450508" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/decaenglish/223178225690" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>나르샤국어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">59</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 9 , 501호 (월성동)</p><p class="card-phone">📞 <a href="tel:053-264-0515">053-264-0515</a></p><div class="card-links"><a href="http://place.map.kakao.com/624610440" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/narsha_koreanedu/223008040655" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>국어자리학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">55</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">29% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 37 , 401호 (월성동)</p><div class="card-links"><a href="https://blog.naver.com/kookja9542/223407416409" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row"><h3>해늘국어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">55</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">18% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 월곡로 261-1 , 3층(상인동)</p><p class="card-phone">📞 <a href="tel:053-710-9473">053-710-9473</a></p><div class="card-links"><a href="http://place.map.kakao.com/2069182929" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/hae_neul-/223386029944" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this, '국어')">▼ 1회 언급 학원 5개 더 보기</button></div><div class="academy-card hidden" data-subject="국어" data-once="1">
+<div class="card-title-row"><h3>로퀜스국어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">40% (선호)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 월배로 159 212호(진천동,월배역 디엘 라온프라이빗)</p><p class="card-phone">📞 <a href="tel:053-644-7330">053-644-7330</a></p><div class="card-links"><a href="http://place.map.kakao.com/14813400" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/loquens7330/221544870651" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="국어" data-once="1">
+<div class="card-title-row"><h3>송강국어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">40% (선호)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 9 , 605호(월성동)</p><p class="card-phone">📞 <a href="tel:053-643-7749">053-643-7749</a></p><div class="card-links"><a href="http://place.map.kakao.com/28182796" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/kimmmm0529/223239155741" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="국어" data-once="1">
+<div class="card-title-row"><h3>제세현국어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">52</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">25% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 24 , 601호(월성동)</p><p class="card-phone">📞 <a href="tel:010-7927-4456">010-7927-4456</a></p><div class="card-links"><a href="http://place.map.kakao.com/2092379854" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/je-se-hyun/224183756645" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="국어" data-once="1">
+<div class="card-title-row"><h3>온당국어교습소</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">52</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">25% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로10길 5 , 202호(월성동)</p><div class="card-links"><a href="https://blog.naver.com/ondang2025/224123581135" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="국어" data-once="1">
+<div class="card-title-row"><h3>여민락국어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">51</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 32 , 609호(월성동)</p><p class="card-phone">📞 <a href="tel:053-636-0805">053-636-0805</a></p><div class="card-links"><a href="https://blog.naver.com/gonggamdae-1318/224055581765" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div></div><div class="subject-section" data-subject="영어">
+<div class="section-header"><h2>영어</h2><span class="section-count">24개 학원</span></div>
+<div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>제이와이영어학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span><span class="score-number">99</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 6회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 한실로6길 120 , 203호(대곡동)</p><p class="card-phone">📞 <a href="tel:010-3537-9651">010-3537-9651</a></p><div class="card-links"><a href="http://place.map.kakao.com/1722001103" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/find1111/223462279397" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>이에스영어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">91</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">57% (선호)</span><span class="mention-text">블로그 9회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 한실로 99 4층(도원동)</p><p class="card-phone">📞 <a href="tel:053-636-0588">053-636-0588</a></p><div class="card-links"><a href="http://place.map.kakao.com/19299086" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/esenglish0588/223470370002" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>더맥스영어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">78</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 7회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암남로 5 , 5층 일부 (상인동)</p><div class="card-links"><a href="https://blog.naver.com/themaxenglish/224293867494" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>은갈치영어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">77</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">57% (선호)</span><span class="mention-text">블로그 6회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 도원로 29 4층 일부(도원동)</p><p class="card-phone">📞 <a href="tel:053-634-5591">053-634-5591</a></p><div class="card-links"><a href="http://place.map.kakao.com/1662206418" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/jungle_eng/222967555640" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>에이닷영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">75</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">13% (지역)</span><span class="mention-text">블로그 24회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 이곡공원로 32 , 6층 일부 (이곡동)</p><p class="card-phone">📞 <a href="tel:053-642-5466">053-642-5466</a></p><div class="card-links"><a href="http://place.map.kakao.com/14802374" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/3941032/222768949026" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>양깡영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">71</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">29% (지역)</span><span class="mention-text">블로그 9회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 월곡로 269 , 3층 (상인동)</p><p class="card-phone">📞 <a href="tel:053-636-9341">053-636-9341</a></p><div class="card-links"><a href="http://place.map.kakao.com/742707143" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/hillary73/224198554873" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>진보라영어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">68</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">57% (선호)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 8 , 704호(월성동)</p><p class="card-phone">📞 <a href="tel:010-5160-9840">010-5160-9840</a></p><div class="card-links"><a href="http://place.map.kakao.com/2045857268" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/brjinenglish/223726351697" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>브릿지영어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">63</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">40% (선호)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 28 , 7층 (월성동)</p><p class="card-phone">📞 <a href="tel:053-644-7905">053-644-7905</a></p><div class="card-links"><a href="http://place.map.kakao.com/1093484888" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/vinenine/222905824092" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>황샘영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">61</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">27% (지역)</span><span class="mention-text">블로그 5회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 상인서로 103-6 , 4층일부 (상인동, 리젠트프라자)</p><p class="card-phone">📞 <a href="tel:053-641-8182">053-641-8182</a></p><div class="card-links"><a href="http://place.map.kakao.com/9072375" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/dmswls8141/223261577846" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>상인황샘영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">61</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">27% (지역)</span><span class="mention-text">블로그 5회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 월배로 180   6층 (상인동)</p><p class="card-phone">📞 <a href="tel:053-641-8141">053-641-8141</a></p><div class="card-links"><a href="http://place.map.kakao.com/9072375" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/dmswls8141/223261577846" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>1호관고등관퍼펙트영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">59</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 6회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 월곡로 339 , 2층 (상인동)</p><p class="card-phone">📞 <a href="tel:053-639-0248">053-639-0248</a></p><div class="card-links"><a href="http://place.map.kakao.com/670896140" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/koreannon/223359456926" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>말하는영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">59</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">38% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 월배로11길 32 , 505호 (대천동)</p><p class="card-phone">📞 <a href="tel:053-636-2149">053-636-2149</a></p><div class="card-links"><a href="http://place.map.kakao.com/1752182294" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/english_angie/223743614564" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>글로벌리더스어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">58</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 월배로 149 , 2,3층 (진천동)</p><p class="card-phone">📞 <a href="tel:053-631-8000">053-631-8000</a></p><div class="card-links"><a href="http://place.map.kakao.com/598402110" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/noble8000/222065060286" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>제니스영어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">57</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">43% (선호)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 42 , 302호 (월성동)</p><p class="card-phone">📞 <a href="tel:053-632-7711">053-632-7711</a></p><div class="card-links"><a href="http://place.map.kakao.com/1686017775" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/zenith2017/224060144678" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>레인보우영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">56</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">25% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 도원로동길 4-5 3층(도원동)</p><p class="card-phone">📞 <a href="tel:053-217-7993">053-217-7993</a></p><div class="card-links"><a href="http://place.map.kakao.com/118237646" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/sally_883/224152566010" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>제이슨영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">55</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">23% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암남로10길 7 2층(월성동)</p><p class="card-phone">📞 <a href="tel:053-637-0582">053-637-0582</a></p><div class="card-links"><a href="http://place.map.kakao.com/1027928038" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/pmind/224231483332" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row"><h3>2호관초중등관퍼펙트영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">54</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">17% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암남로 17 , 2층 일부(201호,상인동)</p><div class="card-links"><a href="https://blog.naver.com/perfectenglish2/224225084247" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this, '영어')">▼ 1회 언급 학원 7개 더 보기</button></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>아이스터디영어학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span><span class="score-number">58</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 월배로11길 14 , 501호 (진천동)</p><p class="card-phone">📞 <a href="tel:053-633-0535">053-633-0535</a></p><div class="card-links"><a href="http://place.map.kakao.com/1178553257" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/istudy6330535/224213019249" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>신월성독쫑영어어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">54</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 32 , 4층, 407·408·409·410호, 신월성미소지움 (월성동)</p><p class="card-phone">📞 <a href="tel:053-638-3001">053-638-3001</a></p><div class="card-links"><a href="http://place.map.kakao.com/2091335750" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/dokzzong_wolseong/224232321020" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>넛지영어교습소</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">54</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 월배로11길 32 (대천동)  202호 일부</p><div class="card-links"><a href="https://blog.naver.com/azssam/221686631045" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>글로리영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">38% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 9 503호(월성동)</p><p class="card-phone">📞 <a href="tel:053-644-6600">053-644-6600</a></p><div class="card-links"><a href="http://place.map.kakao.com/1306294310" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/glory05academy/223723302323" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>독쫑영어어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">52</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">33% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 월서로 20   3층 (상인동)</p><p class="card-phone">📞 <a href="tel:053-636-1005">053-636-1005</a></p><div class="card-links"><a href="http://place.map.kakao.com/2091335750" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/dokzzong_wolseong/224232321020" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>이영조영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">51</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">21% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 이곡동로 65 , 2층 (이곡동)</p><p class="card-phone">📞 <a href="tel:053-782-7367">053-782-7367</a></p><div class="card-links"><a href="https://blog.naver.com/pmind/223673898037" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row"><h3>하이스트영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">51</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 상원로 128 , 6층 일부 (상인동)</p><p class="card-phone">📞 <a href="tel:053-638-0148">053-638-0148</a></p><div class="card-links"><a href="http://place.map.kakao.com/1977374885" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/highest2023/223401463179" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div><div style="text-align:center;margin:28px auto;width:100%;display:flex;justify-content:center;"><div style="width:100%;max-width:960px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="3283693943" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div></div></div></div><div class="subject-section" data-subject="수학">
+<div class="section-header"><h2>수학</h2><span class="section-count">15개 학원</span></div>
+<div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>메타수학국어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">99</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">58% (선호)</span><span class="mention-text">블로그 11회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 한실로6길 124 , 2층 일부 (대곡동, MK타워)</p><p class="card-phone">📞 <a href="tel:053-637-0472">053-637-0472</a></p><div class="card-links"><a href="http://place.map.kakao.com/766189146" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/metakorean-aca/223972287869" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>옥수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">85</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">36% (지역)</span><span class="mention-text">블로그 13회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 월곡로 341 , 2층 일부, 3층 일부 (상인동)</p><p class="card-phone">📞 <a href="tel:053-631-7172">053-631-7172</a></p><div class="card-links"><a href="http://place.map.kakao.com/2037730608" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/okmath7172/223991151807" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>하이탑수학학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">72</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">41% (선호)</span><span class="mention-text">블로그 7회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 월배로33길 80 , 2층 (월성동)</p><p class="card-phone">📞 <a href="tel:053-266-9211">053-266-9211</a></p><div class="card-links"><a href="http://place.map.kakao.com/1731502352" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/8888o_o/222729078208" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>장선생수학학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">67</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">57% (선호)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 17 , 401호 (월성동, 월성동 이래타워 키즈)</p><p class="card-phone">📞 <a href="tel:053-634-2349">053-634-2349</a></p><div class="card-links"><a href="http://place.map.kakao.com/1874968391" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/jmath49/223085840601" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>티엔씨수학교습소</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">65</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">67% (선호)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 한실로 117 , 상가330동 301호 (도원동, 대곡사계절타운)</p><div class="card-links"><a href="https://blog.naver.com/solforever/223253134126" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>폴리아수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">65</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">25% (지역)</span><span class="mention-text">블로그 8회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 32 , 504호, 505호 (월성동, 신월성미소지움)</p><p class="card-phone">📞 <a href="tel:053-781-6599">053-781-6599</a></p><div class="card-links"><a href="http://place.map.kakao.com/681730427" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/polya_edu/222697905093" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>제제프리미엄수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">64</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">27% (지역)</span><span class="mention-text">블로그 7회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 진천로 77 , 310호(진천동,진천역 계룡 리슈빌)</p><p class="card-phone">📞 <a href="tel:053-716-0024">053-716-0024</a></p><div class="card-links"><a href="http://place.map.kakao.com/127835728" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/jeje7371/224222785573" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>아르케수학학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">63</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">44% (선호)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 149 , 401호 (대천동)</p><p class="card-phone">📞 <a href="tel:053-632-5003">053-632-5003</a></p><div class="card-links"><a href="http://place.map.kakao.com/549778576" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/arche5003/224253663719" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>대찬수학학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">61</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 한실로 99 2층 일부(도원동)</p><p class="card-phone">📞 <a href="tel:053-635-7060">053-635-7060</a></p><div class="card-links"><a href="http://place.map.kakao.com/1612235013" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/sky9102sky/224255773315" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>브레인수학학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span><span class="score-number">61</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">75% (전문)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암남로32길 20-8 , 205호 (대천동, 비스타2)</p><p class="card-phone">📞 <a href="tel:053-963-0078">053-963-0078</a></p><div class="card-links"><a href="http://place.map.kakao.com/1379165575" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/rhwldud1202/224245737757" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>탑브레인수학학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">60</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">67% (선호)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 한실로6길 134 , 303호(대곡동)</p><p class="card-phone">📞 <a href="tel:010-7330-6146">010-7330-6146</a></p><div class="card-links"><a href="http://place.map.kakao.com/1379165575" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/rhwldud1202/224245737757" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>오르라수학전문학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">57</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">31% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 185 , 705호 (유천동)</p><p class="card-phone">📞 <a href="tel:053-290-3821">053-290-3821</a></p><div class="card-links"><a href="http://place.map.kakao.com/480528904" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/skypdc2090/223857951610" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row"><h3>그릿수학831상인학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 상원로 128 , 6층일부(601호)(상인동)</p><p class="card-phone">📞 <a href="tel:053-632-7172">053-632-7172</a></p><div class="card-links"><a href="http://place.map.kakao.com/1731303308" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/gritgrit831/223514778076" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this, '수학')">▼ 1회 언급 학원 2개 더 보기</button></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>케이뉴수학학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 40 , 주건축물제2동 3층(월성동)</p><p class="card-phone">📞 <a href="tel:053-637-3336">053-637-3336</a></p><div class="card-links"><a href="http://place.map.kakao.com/1863158861" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/knewmath/224155836184" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row"><h3>정앤수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">52</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">33% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암로 33 , 402호 (월성동)</p><p class="card-phone">📞 <a href="tel:053-633-9556">053-633-9556</a></p><div class="card-links"><a href="https://blog.naver.com/soolever2003/222311248152" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div></div><div class="subject-section" data-subject="과학">
+<div class="section-header"><h2>과학</h2><span class="section-count">1개 학원</span></div>
+<div class="academy-card" data-subject="과학">
+<div class="card-title-row"><h3>일타수학허훈과학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">99</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">16% (지역)</span><span class="mention-text">블로그 23회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 월배로 180 , 9층일부 (상인동)</p><p class="card-phone">📞 <a href="tel:010-8314-0090">010-8314-0090</a></p><div class="card-links"><a href="http://place.map.kakao.com/331625200" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/heohoon_/224227769384" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div></div><div class="subject-section" data-subject="논술">
+<div class="section-header"><h2>논술</h2><span class="section-count">1개 학원</span></div>
+<div class="academy-card" data-subject="논술">
+<div class="card-title-row"><h3>인지니움국어논술학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">99</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">67% (선호)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 진천로 117 , 406호(대천동)</p><p class="card-phone">📞 <a href="tel:053-632-1923">053-632-1923</a></p><div class="card-links"><a href="http://place.map.kakao.com/1312678624" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/ingeniumm/223097622480" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div></div><div class="subject-section" data-subject="종합/입시">
+<div class="section-header"><h2>종합/입시</h2><span class="section-count">9개 학원</span></div>
+<div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>제제잉글리쉬학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">99</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">25% (지역)</span><span class="mention-text">블로그 15회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 진천로 77 , 311호 (진천동)</p><p class="card-phone">📞 <a href="tel:053-634-7371">053-634-7371</a></p><div class="card-links"><a href="http://place.map.kakao.com/1702323610" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/jeje7371/224207872731" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>대치K학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span><span class="score-number">89</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 6회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 도원로 30 401호(도원동)</p><div class="card-links"><a href="https://blog.naver.com/daechik_edu/223375139128" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>알찬강의학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">79</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">25% (지역)</span><span class="mention-text">블로그 9회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 월곡로 268-6 , 6층 (상인동)</p><p class="card-phone">📞 <a href="tel:053-634-1318">053-634-1318</a></p><div class="card-links"><a href="http://place.map.kakao.com/12565534" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/alchan3030/223782168330" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>제스트학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">79</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">32% (지역)</span><span class="mention-text">블로그 7회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암남로32길 16 , 주4동 3층 일부 (대천동)</p><p class="card-phone">📞 <a href="tel:053-633-7801">053-633-7801</a></p><div class="card-links"><a href="http://place.map.kakao.com/620831349" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/zest200501/222670900800" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>대구장기점와와학습코칭학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">58</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">31% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 장기로 252 , 209호, 210호 (장기동, 장기 협성휴포레)</p><div class="card-links"><a href="https://blog.naver.com/dasix612/224140722331" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row"><h3>솔루션학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">55</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">20% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암남로 172-12 , 3층 일부 (유천동)</p><p class="card-phone">📞 <a href="tel:053-625-1000">053-625-1000</a></p><div class="card-links"><a href="http://place.map.kakao.com/51648300" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/solution_math4337/224250079109" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this, '종합/입시')">▼ 1회 언급 학원 3개 더 보기</button></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>더송쌤학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">54</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">38% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 송현로 54 , 1층일부, 2층일부 (송현동)</p><p class="card-phone">📞 <a href="tel:053-255-9092">053-255-9092</a></p><div class="card-links"><a href="http://place.map.kakao.com/27254839" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/thesongssam/223514634456" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>이곡점와와학습코칭학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">54</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">33% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 달구벌대로259길 33 , 501호 (이곡동)</p><p class="card-phone">📞 <a href="tel:053-428-4929">053-428-4929</a></p><div class="card-links"><a href="http://place.map.kakao.com/27443178" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/dasix612/224143598470" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row"><h3>진천점모두오름학습코칭학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span><span class="score-number">53</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">28% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body"><p class="card-address">📍 대구광역시 달서구 조암남로 158 , 3층 301호(유천동)</p><p class="card-phone">📞 <a href="tel:053-643-6753">053-643-6753</a></p><div class="card-links"><a href="http://place.map.kakao.com/1048364718" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/bibobibban2/224115471114" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div></div></div></div><div style="text-align:center;margin:32px auto 0;width:100%;display:flex;justify-content:center;"><div style="width:100%;max-width:960px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="7446830466" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div><footer class="site-footer">
+<p class="footer-cta">학원 등록 및 광고 문의: <a href="mailto:themakings.official01@gmail.com">themakings.official01@gmail.com</a></p>
+<p class="footer-copy">© 2026 THE MAKINGS · <a href="https://themakings.co.kr">메인으로 돌아가기</a></p>
+</footer><script>
+function filterSubject(subj, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.subject-section').forEach(sec => {
+        sec.classList.toggle('hidden', subj !== 'all' && sec.dataset.subject !== subj);
+    });
+}
+function toggleMore(btn, subj) {
+    const cards = document.querySelectorAll(`.academy-card[data-subject="${subj}"][data-once="1"]`);
+    const isHidden = cards[0] && cards[0].classList.contains('hidden');
+    cards.forEach(c => c.classList.toggle('hidden', !isHidden));
+    btn.textContent = isHidden
+        ? '▲ 1회 언급 학원 접기'
+        : `▼ 1회 언급 학원 ${cards.length}개 더 보기`;
+}
+</script></body></html>
