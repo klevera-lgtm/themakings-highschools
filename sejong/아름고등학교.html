@@ -1,0 +1,653 @@
+<!DOCTYPE html><html lang="ko"><head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="PRWEzwLvpx79mTySGb6sEvFHtoNITEBuCbyXQbhCDDA" />
+<meta name="naver-site-verification" content="2807a8fa5fd31106baffa35c7726e7fa0133b97a" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<title>아름고등학교 근처 학원 추천 | 세종특별자치시 | THE MAKINGS</title>
+<meta name="description" content="아름고등학교 학생들이 많이 다니는 학원 리스트. 44개 학원, 전문도 기반 정렬.">
+<link rel="canonical" href="https://highschool.themakings.co.kr/sejong/아름고등학교.html">
+<style>*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#f8f9fb;--card-bg:#fff;--text:#1a1a2e;--text-sub:#6b7280;--pink:#e84393;--accent:#2563eb;--border:#e5e7eb;--radius:12px;--shadow-lg:0 4px 20px rgba(0,0,0,.08)}
+body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+.site-header{background:#fff;border-bottom:1px solid var(--border);padding:16px 0;position:sticky;top:0;z-index:100}
+.header-inner{max-width:960px;margin:0 auto;padding:0 20px;display:flex;flex-direction:column;align-items:center;gap:12px}
+.logo{font-weight:800;font-size:28px;color:var(--pink);text-decoration:none;letter-spacing:-.5px}
+.header-nav a{font-size:14px;color:var(--text-sub);text-decoration:none;margin:0 10px;font-weight:500}
+.header-nav a:hover{color:var(--pink)}
+.breadcrumb{max-width:960px;margin:0 auto;padding:16px 20px 0;font-size:16px;color:var(--pink);font-weight:600}
+.breadcrumb a{color:var(--pink);text-decoration:none}.breadcrumb a:hover{text-decoration:underline}.breadcrumb span{margin:0 6px}
+.hero{max-width:960px;margin:0 auto;padding:32px 20px 16px;text-align:center}
+.hero h1{font-size:28px;font-weight:800;letter-spacing:-.5px;margin-bottom:8px;line-height:1.3}
+.hero-sub{font-size:15px;color:var(--text-sub);margin-bottom:20px}
+.hero-stats{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.stat-chip{background:var(--card-bg);border:1px solid var(--border);border-radius:100px;padding:8px 16px;font-size:13px;font-weight:600}
+.score-info-box{max-width:960px;margin:0 auto 8px;padding:0 20px}
+.score-info-inner{background:#fdf2f8;border:1px solid #f9a8d4;border-left:4px solid var(--pink);border-radius:var(--radius);padding:16px 20px}
+.score-info-title{font-size:14px;font-weight:700;color:#be185d;margin-bottom:6px}
+.score-info-desc{font-size:13px;color:#9d174d;line-height:1.6;margin-bottom:10px}
+.score-info-levels{display:flex;gap:16px;flex-wrap:wrap}
+.score-level{font-size:12px;font-weight:600;padding:4px 10px;border-radius:100px}
+.score-level.green{background:#f0fdf4;color:#15803d}
+.score-level.orange{background:#fff7ed;color:#c2410c}
+.score-level.gray{background:#f9fafb;color:#6b7280;border:1px solid #e5e7eb}
+.filter-bar{max-width:960px;margin:0 auto;padding:8px 20px 20px;display:flex;gap:8px;flex-wrap:wrap}
+.filter-btn{background:var(--card-bg);border:1px solid var(--border);border-radius:100px;padding:8px 14px;font-size:13px;font-weight:500;cursor:pointer;transition:all .15s;font-family:inherit;color:var(--text-sub);display:flex;align-items:center;gap:4px}
+.filter-btn:hover{border-color:var(--pink);color:var(--pink)}
+.filter-btn.active{background:var(--pink);color:#fff;border-color:var(--pink)}
+.filter-btn .count{font-size:11px;opacity:.7}
+.subject-section{max-width:960px;margin:0 auto;padding:0 20px}
+.section-header{display:flex;align-items:center;justify-content:space-between;padding:24px 0 8px;border-bottom:2px solid var(--text);margin-bottom:12px}
+.section-header h2{font-size:20px;font-weight:800}.section-count{font-size:13px;color:var(--text-sub);font-weight:500}
+.subject-section.hidden{display:none}
+.academy-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;transition:box-shadow .2s,border-color .2s;margin-bottom:12px}
+.academy-card:hover{box-shadow:var(--shadow-lg);border-color:#d1d5db}
+.academy-card.hidden{display:none}
+.card-title-row{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:8px}
+.card-title-row h3{font-size:17px;font-weight:700;line-height:1.3}
+.score-badge{display:flex;flex-direction:column;align-items:center;padding:6px 14px;border-radius:10px;flex-shrink:0;min-width:72px}
+.score-label{font-size:10px;font-weight:600;opacity:.8}
+.score-number{font-size:22px;font-weight:800;line-height:1.1;letter-spacing:-1px}
+.card-meta{font-size:12px;margin-bottom:8px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.conc-badge{font-size:11px;font-weight:600;padding:3px 8px;border-radius:6px}
+.mention-text{font-size:12px;color:var(--text-sub)}
+.card-body{font-size:14px}.card-address{color:var(--text-sub);margin-bottom:4px}
+.card-phone{margin-bottom:4px}.card-phone a{color:var(--accent);text-decoration:none;font-weight:500}
+.card-links{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.link-btn{font-size:13px;padding:6px 12px;border-radius:8px;text-decoration:none;font-weight:500;transition:opacity .15s}
+.link-btn:hover{opacity:.8}.link-btn.kakao{background:#fee500;color:#3c1e1e}.link-btn.blog{background:#e8f5e9;color:#2e7d32}
+.more-btn-wrap{max-width:960px;margin:0 auto;padding:0 20px 16px}
+.more-btn{width:100%;padding:12px;background:var(--card-bg);border:1px dashed var(--border);border-radius:var(--radius);font-size:13px;color:var(--text-sub);cursor:pointer;font-family:inherit;font-weight:500;transition:all .15s}
+.more-btn:hover{border-color:var(--pink);color:var(--pink)}
+.school-list{max-width:960px;margin:0 auto;padding:0 20px 40px}
+.school-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.school-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-decoration:none;color:var(--text);transition:box-shadow .2s}
+.school-card:hover{box-shadow:var(--shadow-lg)}.school-card h3{font-size:16px;font-weight:700;margin-bottom:4px}.school-card p{font-size:13px;color:var(--text-sub)}
+.site-footer{background:#fff;border-top:1px solid var(--border);padding:40px 20px;text-align:center}
+.footer-cta{font-size:15px;font-weight:600;margin-bottom:8px}.footer-cta a{color:var(--pink);text-decoration:none}
+.footer-copy{font-size:13px;color:var(--text-sub);margin-top:12px}.footer-copy a{color:var(--pink);text-decoration:none}
+@media(max-width:640px){.hero h1{font-size:22px}.header-nav a{margin:0 6px}.stat-chip{font-size:12px;padding:6px 12px}.filter-btn{padding:6px 10px;font-size:12px}.card-title-row{flex-direction:column;gap:8px}.score-badge{flex-direction:row;gap:8px;min-width:auto;padding:6px 12px}.score-info-levels{gap:8px}.section-header h2{font-size:17px}}</style></head><body>
+<header class="site-header"><div class="header-inner">
+<a href="https://themakings.co.kr/" class="logo">THE MAKINGS</a>
+<nav class="header-nav">
+<a href="/seoul/">서울</a><a href="/incheon/">인천</a><a href="/gyeonggi/">경기</a><a href="/busan/">부산</a><a href="/sejong/">세종</a>
+</nav></div></header>
+<div style="text-align:center;margin:20px auto;width:100%;display:flex;justify-content:center;"><div style="width:100%;max-width:960px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="4154182247" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div>
+<div class="breadcrumb"><a href="/">홈</a><span>›</span><a href="/sejong/">세종</a><span>›</span>아름고등학교</div>
+<section class="hero">
+<h1>아름고등학교<br><span style="font-size:20px;color:var(--text-sub)">근처 학원 리스트</span></h1>
+<p class="hero-sub">세종특별자치시 · 고등학교</p>
+<div class="hero-stats">
+<div class="stat-chip">📚 44개 학원</div>
+<div class="stat-chip">🏫 전문도 기반 정렬</div>
+</div></section>
+<div class="score-info-box"><div class="score-info-inner">
+<div class="score-info-title">📊 전문도란?</div>
+<div class="score-info-desc">이 학원이 블로그에서 우리 학교를 얼마나 집중적으로 언급했는지 보여주는 지표예요.<br>언급 횟수가 많고 집중도가 높을수록 우리 학교 학생들이 즐겨 찾는 학원일 가능성이 높습니다.</div>
+<div class="score-info-levels">
+<span class="score-level green">🟢 집중도 70%+ 전문</span>
+<span class="score-level orange">🟠 40~69% 선호</span>
+<span class="score-level gray">⚪ 40% 미만 지역</span>
+</div></div></div>
+<div class="filter-bar"><button class="filter-btn active" onclick="filterSubject('all',this)">전체 <span class="count">44</span></button><button class="filter-btn" onclick="filterSubject('종합/입시',this)">종합/입시 <span class="count">16</span></button><button class="filter-btn" onclick="filterSubject('국어',this)">국어 <span class="count">9</span></button><button class="filter-btn" onclick="filterSubject('수학',this)">수학 <span class="count">12</span></button><button class="filter-btn" onclick="filterSubject('영어',this)">영어 <span class="count">7</span></button></div>
+<div class="subject-section" data-subject="종합/입시">
+<div class="section-header"><h2>종합/입시</h2><span class="section-count">16개 학원</span></div>
+<div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>더위너스학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">66</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">93% (전문)</span><span class="mention-text">블로그 14회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 92 , 해피라움 2동 707-1호 (아름동, 해피라움2)</p>
+  <p class="card-phone">📞 <a href="tel:044-998-0584">044-998-0584</a></p><div class="card-links"><a href="https://blog.naver.com/letsbewinners/223500933318" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>하이클래스학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">52</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 한누리대로 165 , 410호 (나성동, 세종메디피아)</p>
+  <p class="card-phone">📞 <a href="tel:010-7942-3953">010-7942-3953</a></p><div class="card-links"><a href="http://place.map.kakao.com/1023927115" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/kkoreaedu/224241635411" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>한국학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">49</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">15% (지역)</span><span class="mention-text">블로그 52회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 95 206호, 207호, 208호, 701호, 702호(아름동, 해피라움3)</p>
+  <p class="card-phone">📞 <a href="tel:044-867-0068">044-867-0068</a></p><div class="card-links"><a href="http://place.map.kakao.com/937122157" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/kkoreaedu/222726225552" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>강남한국학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">49</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">15% (지역)</span><span class="mention-text">블로그 52회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 91 501호~507-1호, 602-2호, 608-2호(아름동, 해피라움4)</p>
+  <p class="card-phone">📞 <a href="tel:044-867-0038">044-867-0038</a></p><div class="card-links"><a href="http://place.map.kakao.com/937122157" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/kkoreaedu/222726225552" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>이루다입시학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">46</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">29% (지역)</span><span class="mention-text">블로그 24회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 92 , 해피라움2 411호  (아름동, 해피라움2)</p>
+  <p class="card-phone">📞 <a href="tel:010-2398-6919">010-2398-6919</a></p><div class="card-links"><a href="http://place.map.kakao.com/193281385" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/iruda070/223571442965" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>집현전학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">46</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">71% (전문)</span><span class="mention-text">블로그 5회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 아름서1길 23 세종조이1 602호,603호(아름동)</p>
+  <p class="card-phone">📞 <a href="tel:044-863-1572">044-863-1572</a></p><div class="card-links"><a href="http://place.map.kakao.com/1929718013" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/ade_english1572/224282162590" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>더올림입시학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">45</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">23% (지역)</span><span class="mention-text">블로그 27회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 세종로 1219 , 504~506호 (고운동, 세종중앙타워)</p>
+  <p class="card-phone">📞 <a href="tel:044-866-0976">044-866-0976</a></p><div class="card-links"><a href="http://place.map.kakao.com/195141953" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/theollim2018/223735500197" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>세종N하람학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">44</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">34% (지역)</span><span class="mention-text">블로그 16회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 92 608호(아름동, 해피라움Ⅱ)</p>
+  <p class="card-phone">📞 <a href="tel:044-905-8520">044-905-8520</a></p><div class="card-links"><a href="http://place.map.kakao.com/987941960" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/sjharam2025/224289251470" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>더올림학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">42</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">21% (지역)</span><span class="mention-text">블로그 21회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 세종로 1219 , 603호, 606호 (고운동, 세종중앙타워)</p>
+  <p class="card-phone">📞 <a href="tel:044-865-6577">044-865-6577</a></p><div class="card-links"><a href="http://place.map.kakao.com/971114680" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/theollim2018/223918422684" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>우리학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">35</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">29% (지역)</span><span class="mention-text">블로그 8회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 남세종로 466 (보람동) 803호, 804호</p>
+  <p class="card-phone">📞 <a href="tel:044-905-3003">044-905-3003</a></p><div class="card-links"><a href="http://place.map.kakao.com/602742426" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/etcareum829/224005849536" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>세종에이원학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">32</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">36% (지역)</span><span class="mention-text">블로그 5회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 100 , 해피라움1차 701호 (아름동)</p>
+  <p class="card-phone">📞 <a href="tel:044-864-1016">044-864-1016</a></p><div class="card-links"><a href="http://place.map.kakao.com/1384505571" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/sejonga1/223866757308" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>제일학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span>
+    <span class="score-number">32</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">48% (선호)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 한누리대로 275 506호, 507호(나성동, 형성프라자)(나성동)</p>
+  <p class="card-phone">📞 <a href="tel:044-863-5001">044-863-5001</a></p><div class="card-links"><a href="http://place.map.kakao.com/985202800" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/jeilsejong/224188187620" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>맥스터디학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">25</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">17% (지역)</span><span class="mention-text">블로그 5회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 달빛로 47 , 501호 (종촌동, 종촌파크프라자)</p>
+  <p class="card-phone">📞 <a href="tel:044-998-1707">044-998-1707</a></p><div class="card-links"><a href="http://place.map.kakao.com/388816024" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/warmath/224106942116" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="종합/입시">
+<div class="card-title-row">
+  <h3>강한학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">23</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">27% (지역)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 한누리대로 249 , 303호,309호,310호 (나성동, 에스제이타워)</p>
+  <p class="card-phone">📞 <a href="tel:044-868-1022">044-868-1022</a></p><div class="card-links"><a href="http://place.map.kakao.com/1232281290" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/ganghanedu/223851081838" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row">
+  <h3>시선N입시학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span>
+    <span class="score-number">25</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">60% (선호)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 다정중앙로 39 다정센타프라자2 509호, 202호 (다정동)</p>
+  <p class="card-phone">📞 <a href="tel:010-2571-7622">010-2571-7622</a></p><div class="card-links"><a href="http://place.map.kakao.com/1400026148" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/sisun_n/224077972458" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card hidden" data-subject="종합/입시" data-once="1">
+<div class="card-title-row">
+  <h3>이솔학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">12</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">29% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 세종로 1215 , 6층 일부(602, 603호) (고운동, 아성프라자)</p>
+  <p class="card-phone">📞 <a href="tel:044-866-0595">044-866-0595</a></p><div class="card-links"><a href="http://place.map.kakao.com/239582091" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/e-soledu2022/223564040100" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this, '종합/입시')">▼ 1회 언급 학원 2개 더 보기</button></div></div><div style="text-align:center;margin:28px auto;width:100%;display:flex;justify-content:center;"><div style="width:100%;max-width:960px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="3283693943" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div><div class="subject-section" data-subject="국어">
+<div class="section-header"><h2>국어</h2><span class="section-count">9개 학원</span></div>
+<div class="academy-card" data-subject="국어">
+<div class="card-title-row">
+  <h3>제니퍼영어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span>
+    <span class="score-number">69</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">53% (선호)</span><span class="mention-text">블로그 85회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 154 , 송남빌딩 204호 (아름동)</p>
+  <p class="card-phone">📞 <a href="tel:044-905-6665">044-905-6665</a></p><div class="card-links"><a href="http://place.map.kakao.com/63530395" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/jenniferenglish2012/224294500614" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row">
+  <h3>뿌리국어학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">48</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 92 502호(아름동)</p>
+  <p class="card-phone">📞 <a href="tel:044-866-6662">044-866-6662</a></p><div class="card-links"><a href="https://blog.naver.com/ppuri_academy/224279196086" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row">
+  <h3>혜음국어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">47</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">15% (지역)</span><span class="mention-text">블로그 43회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 92 , 해피라움2동 410-1호 (아름동)</p>
+  <p class="card-phone">📞 <a href="tel:044-865-2015">044-865-2015</a></p><div class="card-links"><a href="http://place.map.kakao.com/1451330638" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/79jongmin/224242927711" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row">
+  <h3>로운국어전문학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">44</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">38% (지역)</span><span class="mention-text">블로그 14회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 92 , 606-1호 (아름동, 해피라움2)</p>
+  <p class="card-phone">📞 <a href="tel:044-999-3849">044-999-3849</a></p><div class="card-links"><a href="http://place.map.kakao.com/1085220387" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/rounkorean/224266773252" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row">
+  <h3>연세국제영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">40</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">28% (지역)</span><span class="mention-text">블로그 14회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 100 , 502-1호, 503-2호, 505-1,2호 (아름동, 해피라움1)</p>
+  <p class="card-phone">📞 <a href="tel:044-866-9705">044-866-9705</a></p><div class="card-links"><a href="http://place.map.kakao.com/871222576" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/yonseiie9705/224303217352" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row">
+  <h3>이성과감성국어전문학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">34</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">25% (지역)</span><span class="mention-text">블로그 9회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 91 , 508-2호, 509호 (아름동, 해피라움4)</p>
+  <p class="card-phone">📞 <a href="tel:044-998-9964">044-998-9964</a></p><div class="card-links"><a href="http://place.map.kakao.com/1989639381" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/sense-sensibility/224289349124" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row">
+  <h3>세종이미숙국어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">28</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">16% (지역)</span><span class="mention-text">블로그 7회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 아름서1길 13-12 , 제이디빌딩 501,502,503호 (아름동)</p>
+  <p class="card-phone">📞 <a href="tel:044-868-6263">044-868-6263</a></p><div class="card-links"><a href="http://place.map.kakao.com/1304923231" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/lms_9098/224050342706" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row">
+  <h3>혜음국어전문학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">26</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">15% (지역)</span><span class="mention-text">블로그 6회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 92 , 508호 (아름동, 해피라움2)</p>
+  <p class="card-phone">📞 <a href="tel:044-905-0199">044-905-0199</a></p><div class="card-links"><a href="https://blog.naver.com/79jongmin/223464938569" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="국어">
+<div class="card-title-row">
+  <h3>국어의보람학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">19</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">27% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 100 해피라움1 503-1호(아름동)</p>
+  <div class="card-links"><a href="https://blog.naver.com/boram_korean/224062906359" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div></div><div class="subject-section" data-subject="수학">
+<div class="section-header"><h2>수학</h2><span class="section-count">12개 학원</span></div>
+<div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>청람수학전문학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">50</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">75% (전문)</span><span class="mention-text">블로그 6회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 104-15 , 엘스빌딩 1동 301호 (아름동, 엘스빌딩)</p>
+  <p class="card-phone">📞 <a href="tel:044-864-3829">044-864-3829</a></p><div class="card-links"><a href="http://place.map.kakao.com/1432500889" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/chungramschool/223859295741" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>궁극의수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">48</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">29% (지역)</span><span class="mention-text">블로그 27회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 아름서1길 13-12 ,401호, 504호, 505호 (아름동, 제이디빌딩)</p>
+  <p class="card-phone">📞 <a href="tel:010-5364-0979">010-5364-0979</a></p><div class="card-links"><a href="http://place.map.kakao.com/1717596679" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/goongsu0979/224199283923" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>최고수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">40</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">25% (지역)</span><span class="mention-text">블로그 15회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 100 (아름동) 해피라움1 408호</p>
+  <div class="card-links"><a href="https://blog.naver.com/ksu4004/224260853767" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>박선생수학학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span>
+    <span class="score-number">28</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 도움3로 105-5 중앙프라자, 405호, 406호(종촌동)</p>
+  <p class="card-phone">📞 <a href="tel:044-865-0339">044-865-0339</a></p><div class="card-links"><a href="http://place.map.kakao.com/1876738518" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/ptbmath2/220606452095" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>에이블영수학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">27</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">29% (지역)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 달빛로 41 , 백두산빌딩 303호 (종촌동)</p>
+  <p class="card-phone">📞 <a href="tel:044-863-0178">044-863-0178</a></p><div class="card-links"><a href="http://place.map.kakao.com/902418565" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/godtooljin/223387020941" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>인투에이수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">27</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">29% (지역)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 아름서1길 13-12 , 제이디빌딩 701호, 702호 (아름동)</p>
+  <p class="card-phone">📞 <a href="tel:044-862-5844">044-862-5844</a></p><div class="card-links"><a href="http://place.map.kakao.com/1702856881" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/sl-consulting/223495636058" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>참수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">23</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">37% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 한누리대로 2165 , 상가 A동 419호, 420호 (보람동, 호려울마을7단지 근린생활시설)</p>
+  <p class="card-phone">📞 <a href="tel:044-867-4279">044-867-4279</a></p><div class="card-links"><a href="http://place.map.kakao.com/2070345497" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/maeng1000/224106381228" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>세종학담관리형독학재수학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">17</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">21% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 한누리대로 275 804호(나성동, 형성프라자)</p>
+  <p class="card-phone">📞 <a href="tel:044-864-7896">044-864-7896</a></p><div class="card-links"><a href="http://place.map.kakao.com/823798285" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/pooh0175/224157352022" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row">
+  <h3>최선수학학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span>
+    <span class="score-number">21</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">50% (선호)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 한누리대로 589 , 502호 (도담동)</p>
+  <p class="card-phone">📞 <a href="tel:044-867-3331">044-867-3331</a></p><div class="card-links"><a href="http://place.map.kakao.com/26803486" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/choisunny_/223799809178" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row">
+  <h3>김나경수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">15</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">36% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 92 , 해피라움2 509-2호 (아름동)</p>
+  <p class="card-phone">📞 <a href="tel:044-866-8183">044-866-8183</a></p><div class="card-links"><a href="http://place.map.kakao.com/492553787" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/kng_math/224187965826" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row">
+  <h3>공감수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">14</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">33% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 160 403호(아름동)</p>
+  <p class="card-phone">📞 <a href="tel:044-864-8337">044-864-8337</a></p><div class="card-links"><a href="http://place.map.kakao.com/1909523652" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/gonggam_math_/223274278418" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card hidden" data-subject="수학" data-once="1">
+<div class="card-title-row">
+  <h3>다풀수학학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">8</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">17% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 한누리대로 253 , 403호 (나성동, 에스빌딩)</p>
+  <p class="card-phone">📞 <a href="tel:044-866-3787">044-866-3787</a></p><div class="card-links"><a href="http://place.map.kakao.com/886819977" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/dajung-mba/223626036840" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this, '수학')">▼ 1회 언급 학원 4개 더 보기</button></div></div><div class="subject-section" data-subject="영어">
+<div class="section-header"><h2>영어</h2><span class="section-count">7개 학원</span></div>
+<div class="academy-card" data-subject="영어">
+<div class="card-title-row">
+  <h3>풀필영어학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">52</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 3회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 160 401호(아름동, 아이콤타워)</p>
+  <p class="card-phone">📞 <a href="tel:044-715-5346">044-715-5346</a></p><div class="card-links"><a href="http://place.map.kakao.com/1557135482" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/ningning-127/224218139120" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row">
+  <h3>제니스영어학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span>
+    <span class="score-number">47</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">43% (선호)</span><span class="mention-text">블로그 15회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 143 604호, 605호 (아름동, 대영프라자)</p>
+  <p class="card-phone">📞 <a href="tel:044-868-1107">044-868-1107</a></p><div class="card-links"><a href="http://place.map.kakao.com/263750858" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/zenith-sejong/224206954688" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row">
+  <h3>봄날영어수학학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span>
+    <span class="score-number">43</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">51% (선호)</span><span class="mention-text">블로그 8회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 달빛로 45 , 201호~202호, 501호~502호 (종촌동, 리버사이드)</p>
+  <p class="card-phone">📞 <a href="tel:044-867-5895">044-867-5895</a></p><div class="card-links"><a href="http://place.map.kakao.com/278598499" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/bomnal_english_math/223272232536" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row">
+  <h3>그래머영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">17</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">22% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 다정중앙로 51 301호(다정동, 더다정빌딩)</p>
+  <p class="card-phone">📞 <a href="tel:044-865-8358">044-865-8358</a></p><div class="card-links"><a href="http://place.map.kakao.com/1125958628" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/coocgty2001/222412861632" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card" data-subject="영어">
+<div class="card-title-row">
+  <h3>경지영어한자학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">17</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">23% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 고운서길 14 , 201호 (고운동, 금화빌딩)</p>
+  <p class="card-phone">📞 <a href="tel:010-3491-8286">010-3491-8286</a></p><div class="card-links"><a href="http://place.map.kakao.com/1887618255" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/kyungjiacademy/223388986793" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row">
+  <h3>BT영어학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">40</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 보듬3로 95 해피라움3 205호(아름동)</p>
+  <div class="card-links"><a href="http://place.map.kakao.com/504395897" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/kimgogo33/223944842832" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="academy-card hidden" data-subject="영어" data-once="1">
+<div class="card-title-row">
+  <h3>인투에이영어학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
+    <span class="score-label">전문도</span>
+    <span class="score-number">14</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">33% (지역)</span><span class="mention-text">블로그 1회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 세종특별자치시 아름서1길 13-12 , 703호 (아름동, 제이디빌딩)</p>
+  <p class="card-phone">📞 <a href="tel:044-868-6771">044-868-6771</a></p><div class="card-links"><a href="http://place.map.kakao.com/1271696575" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/rodusdn/223397320404" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this, '영어')">▼ 1회 언급 학원 2개 더 보기</button></div></div>
+<div style="text-align:center;margin:32px auto 0;width:100%;display:flex;justify-content:center;"><div style="width:100%;max-width:960px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="7446830466" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div>
+<footer class="site-footer">
+<p class="footer-cta">학원 등록 및 광고 문의: <a href="mailto:themakings.official01@gmail.com">themakings.official01@gmail.com</a></p>
+<p class="footer-copy">© 2026 THE MAKINGS · <a href="https://themakings.co.kr">메인으로 돌아가기</a></p>
+</footer>
+<script>
+function filterSubject(subj, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.subject-section').forEach(sec => {
+        sec.classList.toggle('hidden', subj !== 'all' && sec.dataset.subject !== subj);
+    });
+}
+function toggleMore(btn, subj) {
+    const cards = document.querySelectorAll(`.academy-card[data-subject="${subj}"][data-once="1"]`);
+    const isHidden = cards[0] && cards[0].classList.contains('hidden');
+    cards.forEach(c => c.classList.toggle('hidden', !isHidden));
+    btn.textContent = isHidden
+        ? '▲ 1회 언급 학원 접기'
+        : `▼ 1회 언급 학원 ${cards.length}개 더 보기`;
+}
+</script>
+</body></html>
