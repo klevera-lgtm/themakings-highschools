@@ -60,13 +60,6 @@ body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);co
 .more-btn-wrap{max-width:960px;margin:0 auto;padding:0 20px 16px}
 .more-btn{width:100%;padding:12px;background:var(--card-bg);border:1px dashed var(--border);border-radius:var(--radius);font-size:13px;color:var(--text-sub);cursor:pointer;font-family:inherit;font-weight:500;transition:all .15s}
 .more-btn:hover{border-color:var(--pink);color:var(--pink)}
-.school-list{max-width:960px;margin:0 auto;padding:0 20px 40px}
-.school-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
-.school-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-decoration:none;color:var(--text);transition:box-shadow .2s}
-.school-card:hover{box-shadow:var(--shadow-lg)}.school-card h3{font-size:16px;font-weight:700;margin-bottom:4px}.school-card p{font-size:13px;color:var(--text-sub)}
-.district-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
-.district-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:20px;text-decoration:none;color:var(--text);transition:box-shadow .2s}
-.district-card:hover{box-shadow:var(--shadow-lg)}.district-card h3{font-size:16px;font-weight:700;margin-bottom:4px}.district-card p{font-size:13px;color:var(--text-sub)}
 .site-footer{background:#fff;border-top:1px solid var(--border);padding:40px 20px;text-align:center}
 .footer-cta{font-size:15px;font-weight:600;margin-bottom:8px}.footer-cta a{color:var(--pink);text-decoration:none}
 .footer-copy{font-size:13px;color:var(--text-sub);margin-top:12px}.footer-copy a{color:var(--pink);text-decoration:none}
@@ -87,7 +80,8 @@ body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);co
 <span class="score-level green">🟢 집중도 70%+ 전문</span>
 <span class="score-level orange">🟠 40~69% 선호</span>
 <span class="score-level gray">⚪ 40% 미만 지역</span>
-</div></div></div><div class="filter-bar"><button class="filter-btn active" onclick="filterSubject('all',this)">전체 <span class="count">31</span></button><button class="filter-btn" onclick="filterSubject('국어',this)">국어 <span class="count">7</span></button><button class="filter-btn" onclick="filterSubject('영어',this)">영어 <span class="count">9</span></button><button class="filter-btn" onclick="filterSubject('수학',this)">수학 <span class="count">5</span></button><button class="filter-btn" onclick="filterSubject('과학',this)">과학 <span class="count">1</span></button><button class="filter-btn" onclick="filterSubject('종합/입시',this)">종합/입시 <span class="count">9</span></button></div>
+</div></div></div><div class="filter-bar"><button class="filter-btn active" onclick="filterSubject('all',this)">전체 <span class="count">31</span></button><button class="filter-btn" onclick="filterSubject('국어',this)">국어 <span class="count">7</span></button><button class="filter-btn" onclick="filterSubject('영어',this)">영어 <span class="count">10</span></button><button class="filter-btn" onclick="filterSubject('수학',this)">수학 <span class="count">6</span></button><button class="filter-btn" onclick="filterSubject('과학',this)">과학 <span class="count">2</span></button><button class="filter-btn" onclick="filterSubject('종합/입시',this)">종합/입시 <span class="count">6</span></button></div>
+
 <div class="subject-section" data-subject="국어">
 <div class="section-header"><h2>국어</h2><span class="section-count">7개 학원</span></div>
 <div class="academy-card" data-subject="국어">
@@ -183,8 +177,9 @@ body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);co
 </div></div>
 </div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this,'국어')">▼ 1회 언급 학원 2개 더 보기</button></div>
 <div style="text-align:center;margin:28px auto;width:100%;display:flex;justify-content:center;"><div style="width:100%;max-width:960px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="3283693943" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div>
+
 <div class="subject-section" data-subject="영어">
-<div class="section-header"><h2>영어</h2><span class="section-count">9개 학원</span></div>
+<div class="section-header"><h2>영어</h2><span class="section-count">10개 학원</span></div>
 <div class="academy-card" data-subject="영어">
 <div class="card-title-row">
   <h3>한동원영어전문학원</h3>
@@ -210,6 +205,19 @@ body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);co
 <div class="card-body">
   <p class="card-address">📍 서울 서초구 서초대로 30</p>
   <p class="card-phone">📞 <a href="tel:02-588-0579">02-588-0579</a></p><div class="card-links"><a href="http://place.map.kakao.com/1892511709" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/victory0579/223343784024" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div>
+<div class="academy-card" data-subject="영어">
+<div class="card-title-row">
+  <h3>제이엘학원</h3>
+  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
+    <span class="score-label">전문도</span>
+    <span class="score-number">74</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">51% (선호)</span><span class="mention-text">블로그 29회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 서울 서초구 성촌1길 6</p>
+  <p class="card-phone">📞 <a href="tel:02-562-1478">02-562-1478</a></p><div class="card-links"><a href="http://place.map.kakao.com/26799295" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/jlaca0300/224260421057" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
 </div></div>
 <div class="academy-card" data-subject="영어">
 <div class="card-title-row">
@@ -304,8 +312,22 @@ body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);co
 </div></div>
 </div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this,'영어')">▼ 1회 언급 학원 3개 더 보기</button></div>
 <div style="text-align:center;margin:32px auto 0;width:100%;display:flex;justify-content:center;"><div style="width:100%;max-width:960px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6361932856723644" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6361932856723644" data-ad-slot="7446830466" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div>
+
 <div class="subject-section" data-subject="수학">
-<div class="section-header"><h2>수학</h2><span class="section-count">5개 학원</span></div>
+<div class="section-header"><h2>수학</h2><span class="section-count">6개 학원</span></div>
+<div class="academy-card" data-subject="수학">
+<div class="card-title-row">
+  <h3>공명학원</h3>
+  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+    <span class="score-label">전문도</span>
+    <span class="score-number">99</span>
+  </div>
+</div>
+<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-body">
+  <p class="card-address">📍 서울 서초구 서초대로 28</p>
+  <p class="card-phone">📞 <a href="tel:02-595-5883">02-595-5883</a></p><div class="card-links"><a href="http://place.map.kakao.com/190953906" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/lks4887/224002259936" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+</div></div>
 <div class="academy-card" data-subject="수학">
 <div class="card-title-row">
   <h3>생각의힘수학학원</h3>
@@ -372,8 +394,9 @@ body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);co
   <p class="card-phone">📞 <a href="tel:02-596-1718">02-596-1718</a></p><div class="card-links"><a href="http://place.map.kakao.com/1429876753" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/idealmath0808/223284681667" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
 </div></div>
 </div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this,'수학')">▼ 1회 언급 학원 2개 더 보기</button></div>
+
 <div class="subject-section" data-subject="과학">
-<div class="section-header"><h2>과학</h2><span class="section-count">1개 학원</span></div>
+<div class="section-header"><h2>과학</h2><span class="section-count">2개 학원</span></div>
 <div class="academy-card hidden" data-subject="과학" data-once="1">
 <div class="card-title-row">
   <h3>과학의진수학원</h3>
@@ -387,22 +410,23 @@ body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);co
   <p class="card-address">📍 서울 서초구 신반포로 177</p>
   <p class="card-phone">📞 <a href="tel:02-536-6369">02-536-6369</a></p><div class="card-links"><a href="http://place.map.kakao.com/800519996" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/sciencejs/222336159466" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
 </div></div>
-</div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this,'과학')">▼ 1회 언급 학원 1개 더 보기</button></div>
-<div class="subject-section" data-subject="종합/입시">
-<div class="section-header"><h2>종합/입시</h2><span class="section-count">9개 학원</span></div>
-<div class="academy-card" data-subject="종합/입시">
+<div class="academy-card" data-subject="과학">
 <div class="card-title-row">
-  <h3>공명학원</h3>
-  <div class="score-badge" style="background:#f0fdf4;color:#15803d">
+  <h3>가인학원</h3>
+  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
     <span class="score-label">전문도</span>
-    <span class="score-number">99</span>
+    <span class="score-number">61</span>
   </div>
 </div>
-<div class="card-meta"><span class="conc-badge" style="background:#f0fdf4;color:#15803d">100% (전문)</span><span class="mention-text">블로그 4회 언급</span></div>
+<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">24% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
 <div class="card-body">
-  <p class="card-address">📍 서울 서초구 서초대로 28</p>
-  <p class="card-phone">📞 <a href="tel:02-595-5883">02-595-5883</a></p><div class="card-links"><a href="http://place.map.kakao.com/190953906" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/lks4887/224002259936" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+  <p class="card-address">📍 서울 서초구 서초중앙로31길 12</p>
+  <div class="card-links"><a href="http://place.map.kakao.com/19635432" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/ghainedu/223450032607" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
 </div></div>
+</div><div class="more-btn-wrap"><button class="more-btn" onclick="toggleMore(this,'과학')">▼ 1회 언급 학원 1개 더 보기</button></div>
+
+<div class="subject-section" data-subject="종합/입시">
+<div class="section-header"><h2>종합/입시</h2><span class="section-count">6개 학원</span></div>
 <div class="academy-card" data-subject="종합/입시">
 <div class="card-title-row">
   <h3>서초골든타임학원</h3>
@@ -415,19 +439,6 @@ body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);co
 <div class="card-body">
   <p class="card-address">📍 서울 서초구 방배로 245</p>
   <p class="card-phone">📞 <a href="tel:0503-7150-4079">0503-7150-4079</a></p><div class="card-links"><a href="http://place.map.kakao.com/177655080" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/goldentime_seocho/223913187204" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
-</div></div>
-<div class="academy-card" data-subject="종합/입시">
-<div class="card-title-row">
-  <h3>제이엘학원</h3>
-  <div class="score-badge" style="background:#fff7ed;color:#c2410c">
-    <span class="score-label">전문도</span>
-    <span class="score-number">74</span>
-  </div>
-</div>
-<div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">51% (선호)</span><span class="mention-text">블로그 29회 언급</span></div>
-<div class="card-body">
-  <p class="card-address">📍 서울 서초구 성촌1길 6</p>
-  <p class="card-phone">📞 <a href="tel:02-562-1478">02-562-1478</a></p><div class="card-links"><a href="http://place.map.kakao.com/26799295" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/jlaca0300/224260421057" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
 </div></div>
 <div class="academy-card" data-subject="종합/입시">
 <div class="card-title-row">
@@ -479,20 +490,7 @@ body{font-family:'Noto Sans KR',-apple-system,sans-serif;background:var(--bg);co
 <div class="card-meta"><span class="conc-badge" style="background:#fff7ed;color:#c2410c">40% (선호)</span><span class="mention-text">블로그 2회 언급</span></div>
 <div class="card-body">
   <p class="card-address">📍 서울 서초구 서초중앙로31길 14-13</p>
-  <p class="card-phone">📞 <a href="tel:02-534-1774">02-534-1774</a></p><div class="card-links"><a href="http://place.map.kakao.com/613530839" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/gangmom_/223096453075" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
-</div></div>
-<div class="academy-card" data-subject="종합/입시">
-<div class="card-title-row">
-  <h3>가인학원</h3>
-  <div class="score-badge" style="background:#f9fafb;color:#6b7280">
-    <span class="score-label">전문도</span>
-    <span class="score-number">61</span>
-  </div>
-</div>
-<div class="card-meta"><span class="conc-badge" style="background:#f9fafb;color:#6b7280">24% (지역)</span><span class="mention-text">블로그 2회 언급</span></div>
-<div class="card-body">
-  <p class="card-address">📍 서울 서초구 서초중앙로31길 12</p>
-  <div class="card-links"><a href="http://place.map.kakao.com/19635432" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://blog.naver.com/ghainedu/223450032607" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
+  <p class="card-phone">📞 <a href="tel:02-534-1774">02-534-1774</a></p><div class="card-links"><a href="http://place.map.kakao.com/613530839" class="link-btn kakao" target="_blank" rel="nofollow noopener">🗺 카카오맵</a><a href="https://www.fineman.co.kr/html/sub/aca_info/banpo/aca_main.html" class="link-btn blog" target="_blank" rel="nofollow noopener">📝 관련 블로그</a></div>
 </div></div>
 <div class="academy-card" data-subject="종합/입시">
 <div class="card-title-row">
